@@ -1,0 +1,23 @@
+import 'machinesafety.library.uml'
+
+
+context MachineryRiskItem
+
+  def:  avoidanceValue : Real = self.hazardousSituation.avoidance.switch('P1', 1.0, 2.0)
+  def:  frequencyValue : Real = if self.hazardousSituation.hazardousEvent.frequencyOfExposure = 'F1' then 1 else 2 endif
+  def:  occurenceValue : Real = if self.hazardousSituation.hazardousEvent.machineContextCause.occurence = 'O1' then 1 else 2 endif
+  def:  severityValue : Real = if self.machineryEffect.severity = 'S1' then 1 else 1.5 endif
+  def:  newRiskIndex : Real = severityValue * ( frequencyValue + occurenceValue + avoidanceValue )
+  inv riskIndexclalc:
+    if self.riskIndex = null then
+      self.riskIndex = newRiskIndex
+    else
+      let lastRiskIndex : Real = self.riskIndex
+      in
+        self.riskIndex = newRiskIndex
+        self.previousRiskIndex->append(lastRiskIndex)
+    endif
+
+
+
+endpackage
