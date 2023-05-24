@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CoreProfile="http://www.omg.org/spec/RAAML/20201101/Core" xmlns:MagicDrawProfile="http://www.omg.org/spec/UML/20131001/MagicDrawProfile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/RAAML/20201101/Core Core_Profile.profile.uml#_O-9zYr1vEeu-ZJxDG4iZag http://www.omg.org/spec/UML/20131001/MagicDrawProfile UML_Standard_Profile.MagicDraw_Profile.profile.uml">
+  <uml:Model xmi:id="_19_0_3_30b0125_1604658240204_581259_5220" name="Model" visibility="public" URI="" viewpoint="">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_0primitiveTypesModel">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_0javaPrimitiveTypesModel">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_8760274_1528902538032_405604_25272" name="Core Library" visibility="public" URI="">
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1524488497458_106017_16308" name="AnySituation" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_f720368_1544386042568_576341_32027" annotatedElement="_18_5_3_f720368_1524488497458_106017_16308">
+          <body>AnySituation is the universal root of all situations. All situations inherit from AnySituation.  A situation describes a set of situation occurrences of some type. The system, place, time and state parameters are described by classifiers rather than individual descriptions.  A situation occurrence is a system being in a given place at given time and in a given state.
+     
+For example, “Boeing 747 with S/N 12305 is being refueled at Gate 7 of Amsterdam Schiphol at 11:45 on Monday, 30th of July 2018.”</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1524488344311_473760_16176" name="from" visibility="private" type="_18_5_3_f720368_1524488497458_106017_16308" association="_18_5_3_f720368_1524488344311_80229_16174">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_f720368_1544386322466_585707_32132" annotatedElement="_18_5_3_f720368_1524488344311_473760_16176">
+            <body>A situation which precedes the one at the other end of the Causality relationship.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_2a6010b_1560761810872_924321_18063" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_2a6010b_1560761810872_925586_18064" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1524488344311_922751_16175" name="to" visibility="private" type="_18_5_3_f720368_1524488497458_106017_16308" association="_18_5_3_f720368_1524488344311_80229_16174">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_f720368_1544386334037_426442_32133" annotatedElement="_18_5_3_f720368_1524488344311_922751_16175">
+            <body>A situation which follows the one at the other end of the Causality relationship.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_2a6010b_1560761814096_71218_18069" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_2a6010b_1560761814096_538100_18070" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1524488344311_80229_16174" name="Causality" visibility="public" memberEnd="_18_5_3_f720368_1524488344311_922751_16175 _18_5_3_f720368_1524488344311_473760_16176">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_f720368_1544385990798_624801_32015" annotatedElement="_18_5_3_f720368_1524488344311_80229_16174">
+          <body>Universal root relationship between situations. All situation relationships inherit from this relationship.  Identifies cause and effect relationship between two situations. Causality could be direct (non-conditional), conditional or probabilistic or any other inter-situation relationship, defined by the user.  Multiple situations can cause one situation and vice versa - one situation can cause multiple other situations.
+     
+For example, a car in frequent contact with salt, causing safety-critical parts to corrode, which causes leaks in the brake line, causing the brakes to fail, causing a car accident, causing a passenger injury.</body>
+        </ownedComment>
+      </packagedElement>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_19_0_3_30b0125_1604650571309_113388_524">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O_OSEL1vEeu-ZJxDG4iZag" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="Core_Profile.profile.uml#_O-9zYr1vEeu-ZJxDG4iZag"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="Core_Profile.profile.uml#_18_5_3_f720368_1544384771830_305848_23660"/>
+      </profileApplication>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="magicdraw_uml_standard_profile_v_0001" name="UML Standard Profile" visibility="public" URI="">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_be00301_1078843546940_242228_131" annotatedElement="magicdraw_uml_standard_profile_v_0001">
+        <body>UML Standard Profile contains a UML metamodel (metaclasses without properties and associations), Standard UML stereotypes defined in the annex C of UML specification, validation suites for UML model correctness and completeness checking, and stereotypes used by MagicDraw internally.</body>
+      </ownedComment>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_18_5_3_f720368_1544384771830_305848_23660profileApplicationModel">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O_NrAL1vEeu-ZJxDG4iZag" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Core_Profile.profile.uml#_O-9zYr1vEeu-ZJxDG4iZag"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="Core_Profile.profile.uml#_18_5_3_f720368_1544384771830_305848_23660"/>
+    </profileApplication>
+  </uml:Model>
+  <MagicDrawProfile:auxiliaryResource xmi:id="_O_szML1vEeu-ZJxDG4iZag" base_Element="magicdraw_uml_standard_profile_v_0001"/>
+  <CoreProfile:Situation xmi:id="_PBzsAb1vEeu-ZJxDG4iZag" base_Class="_18_5_3_f720368_1524488497458_106017_16308"/>
+</xmi:XMI>

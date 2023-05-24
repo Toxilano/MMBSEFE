@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:FMEAProfile="https://www.omg.org/spec/RAAML/20211101/FMEA" xmlns:MagicDrawProfile="http://www.omg.org/spec/UML/20131001/MagicDrawProfile" xmlns:SysML.Blocks="http:///SysML/Blocks.ecore" xmlns:SysML.ConstraintBlocks="http:///SysML/ConstraintBlocks.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="https://www.omg.org/spec/RAAML/20211101/FMEA FMEA_Profile.profile.uml#_WsfsQKGEEe2bVYn4w_1Jow http://www.omg.org/spec/UML/20131001/MagicDrawProfile UML_Standard_Profile.MagicDraw_Profile.profile.uml#_v02wm_YYEeytq_qdJ9WYGQ http:///SysML/Blocks.ecore SysML.profile.uml#_v0zrw_YYEeytq_qdJ9WYGQ http:///SysML/ConstraintBlocks.ecore SysML.profile.uml#_v0zuY_YYEeytq_qdJ9WYGQ">
+  <uml:Model xmi:id="_19_0_4_7f30258_1656334583901_742862_0" name="Modell" visibility="public" URI="" viewpoint="">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_0primitiveTypesModell">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_0javaPrimitiveTypesModell">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_18_5_3_8760274_1531328505762_209178_44632" name="FMEA Library" visibility="public" URI="">
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_8760274_1531328505763_673062_44633" name="" visibility="public" memberEnd="_18_5_3_8760274_1531328505810_284346_44661 _18_5_3_8760274_1531328505810_260073_44660">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505810_260073_44660" name="" visibility="private" type="_18_5_3_8760274_1531328505764_716305_44636" association="_18_5_3_8760274_1531328505763_673062_44633">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642456_5831_106" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642456_220221_107" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_8760274_1531328505763_130308_44634" name="" visibility="public" memberEnd="_18_5_3_8760274_1531328505814_817870_44663 _18_5_3_8760274_1531328505814_474047_44662">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505814_474047_44662" name="" visibility="private" type="_18_5_3_8760274_1531328505764_716305_44636" association="_18_5_3_8760274_1531328505763_130308_44634">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642455_566558_82" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642455_554307_83" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_8760274_1531328505764_716305_44636" name="FMEAItem" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957776_224086_11950" annotatedElement="_18_5_3_8760274_1531328505764_716305_44636">
+          <body>A FMEAItem is a specialization of AbstractFMEAItem with the Real implementation of quantitative attributes.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1532687592799_854479_18546" general="_18_5_3_f720368_1532687415384_829605_18495"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505810_284346_44661" name="finalEffect" visibility="private" type="_18_5_3_8760274_1531328558153_271100_45440" aggregation="composite" redefinedProperty="_18_5_3_f720368_1532698175854_601714_19773" association="_18_5_3_8760274_1531328505763_673062_44633">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957777_7004_11951" annotatedElement="_18_5_3_8760274_1531328505810_284346_44661">
+            <body>The specialization of AbstractFMEAItem :: finalEffect with the implementation of Effect with Real severity.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642456_489526_112" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_8760274_1531328505861_940413_44706" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505814_817870_44663" name="cause" visibility="private" type="_18_5_3_8760274_1531328528301_224185_45394" aggregation="composite" redefinedProperty="_18_5_3_f720368_1532698575302_52178_20089" association="_18_5_3_8760274_1531328505763_130308_44634">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957778_586507_11952" annotatedElement="_18_5_3_8760274_1531328505814_817870_44663">
+            <body>The specialization of AbstractFMEAItem :: cause with the implementation of Cause with Real occurrence.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642455_780193_88" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_8760274_1531328505865_397696_44709" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505857_770955_44694" name="RPN" aggregation="composite" redefinedProperty="_18_5_3_f720368_1532687525299_498061_18538">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957778_706861_11953" annotatedElement="_18_5_3_8760274_1531328505857_770955_44694">
+            <body>The specialization of AbstractFMEAItem :: RPN with the type Real.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642456_64474_99" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642456_574832_100" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505857_888969_44695" name="failureMode" visibility="private" type="_18_5_3_8760274_1531328563631_949308_45486" aggregation="composite" redefinedProperty="_18_5_3_f720368_1532697864903_416612_19614" association="_18_5_3_8760274_1531328505764_678861_44638">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957779_126787_11954" annotatedElement="_18_5_3_8760274_1531328505857_888969_44695">
+            <body>The specialization of AbstractFMEAItem :: failureMode with the implementation of FailureMode with Real detectability.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642455_814753_93" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642455_277674_94" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505858_816004_44696" name="calculation" visibility="public" type="_18_5_3_8760274_1531328505764_498777_44637" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957801_30640_11955" annotatedElement="_18_5_3_8760274_1531328505858_816004_44696">
+            <body>Link to a formula for RPN calculation.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642455_288958_86" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642455_18597_87" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532688175170_27868_18710" name="previousRPNValues" isOrdered="true" isUnique="false" aggregation="composite" redefinedProperty="_18_5_3_f720368_1533566959763_931838_19500">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957802_794415_11956" annotatedElement="_18_5_3_f720368_1532688175170_27868_18710">
+            <body>The specialization of AbstractFMEAItem :: previousRPNValues with the type Real.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1532688175171_425212_18712" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1532688175171_369615_18711" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5_3_8760274_1531328505855_245856_44690" name="" visibility="public">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_18_5_3_8760274_1531328505872_27458_44716" role="_18_5_3_8760274_1531328505814_912199_44665">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642455_324870_80" name="" visibility="public" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642455_985641_81" name="" visibility="public" value="1"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_18_5_3_8760274_1531328505873_209890_44717" partWithPort="_18_5_3_8760274_1531328505858_816004_44696" role="_18_5_3_8760274_1531328505858_630091_44700">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642457_823250_120" name="" visibility="public" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642457_713853_121" name="" visibility="public" value="1"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5_3_8760274_1531328505856_481817_44691" name="" visibility="public">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_18_5_3_8760274_1531328505873_200892_44719" role="_18_5_3_8760274_1531328505857_770955_44694">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642455_125543_84" name="" visibility="public" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642455_965542_85" name="" visibility="public" value="1"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_18_5_3_8760274_1531328505873_375519_44720" partWithPort="_18_5_3_8760274_1531328505858_816004_44696" role="_18_5_3_8760274_1531328505858_543549_44699">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642454_964000_74" name="" visibility="public" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642454_959826_75" name="" visibility="public" value="1"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5_3_8760274_1531328505856_895592_44692" name="" visibility="public">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_18_5_3_8760274_1531328505874_848328_44722" role="_18_5_3_8760274_1531328505814_542073_44666">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642455_501649_95" name="" visibility="public" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642455_963587_96" name="" visibility="public" value="1"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_18_5_3_8760274_1531328505874_437297_44723" partWithPort="_18_5_3_8760274_1531328505858_816004_44696" role="_18_5_3_8760274_1531328505859_856855_44702">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642456_912999_108" name="" visibility="public" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642456_382310_109" name="" visibility="public" value="1"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5_3_8760274_1531328505857_576463_44693" name="" visibility="public">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_18_5_3_8760274_1531328505874_640865_44725" role="_18_5_3_8760274_1531328505814_586697_44664">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642456_258302_101" name="" visibility="public" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642456_687444_102" name="" visibility="public" value="1"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_18_5_3_8760274_1531328505874_337057_44726" partWithPort="_18_5_3_8760274_1531328505858_816004_44696" role="_18_5_3_8760274_1531328505859_528998_44701">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642457_381491_117" name="" visibility="public" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642457_811394_118" name="" visibility="public" value="1"/>
+          </end>
+        </ownedConnector>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_8760274_1531328505764_498777_44637" name="RPNCalculation" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957802_908134_11957" annotatedElement="_18_5_3_8760274_1531328505764_498777_44637">
+          <body>A formula for RPN calculation. This implementation uses multiplication of Occurrence x Detectability x Severity to calculate RPN.</body>
+        </ownedComment>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_18_5_3_8760274_1531328505858_691605_44698" name="" visibility="public" constrainedElement="_18_5_3_8760274_1531328505764_498777_44637">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_18_5_3_8760274_1531328505876_678037_44735" name="" visibility="public">
+            <body>RPN=SEV*DET*OCC</body>
+          </specification>
+        </ownedRule>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5_3_8760274_1531328505858_543549_44699" name="RPN" visibility="private" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957827_921880_11958" annotatedElement="_18_5_3_8760274_1531328505858_543549_44699">
+            <body>Risk priority number</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642455_109535_91" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642455_758964_92" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5_3_8760274_1531328505858_630091_44700" name="SEV" visibility="private" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957831_747766_11959" annotatedElement="_18_5_3_8760274_1531328505858_630091_44700">
+            <body>Severity</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642456_715887_110" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642456_125528_111" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5_3_8760274_1531328505859_528998_44701" name="OCC" visibility="private" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957832_696351_11960" annotatedElement="_18_5_3_8760274_1531328505859_528998_44701">
+            <body>Occurrence
+</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642454_704497_72" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642454_760853_73" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5_3_8760274_1531328505859_856855_44702" name="DET" visibility="private" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552758018442_153949_11967" annotatedElement="_18_5_3_8760274_1531328505859_856855_44702">
+            <body>Detectability</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642454_300671_78" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642454_373483_79" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_8760274_1531328505764_678861_44638" name="" visibility="public" memberEnd="_18_5_3_8760274_1531328505857_888969_44695 _18_5_3_8760274_1531328505861_312267_44704">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505861_312267_44704" name="" visibility="private" type="_18_5_3_8760274_1531328505764_716305_44636" association="_18_5_3_8760274_1531328505764_678861_44638">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642457_559420_122" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642457_525175_123" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1532687415384_829605_18495" name="AbstractFMEAItem" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957833_762001_11961" annotatedElement="_18_5_3_f720368_1532687415384_829605_18495">
+          <body>An AbstractFMEAItem is a scenario (more specifically - AbstractRisk scenario) composed of a failure mode, (potentially multiple) cause(s) and effect(s). It stores assessed and mitigated risk priority numbers.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1563973009082_522245_21813" general="_18_5_3_f720368_1537816026475_379095_23108"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532687525299_498061_18538" name="RPN" aggregation="composite" redefinedProperty="_18_5_3_f720368_1537815812672_441109_22998">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957836_348453_11962" annotatedElement="_18_5_3_f720368_1532687525299_498061_18538">
+            <body>The risk priority number ranks the risk of the FMEA item. It is a specialization of AbstractRisk::score.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642455_330883_89" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642455_609797_90" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532697864903_416612_19614" name="failureMode" visibility="private" type="_18_5_3_f720368_1532697812126_22480_19557" aggregation="composite" subsettedProperty="_18_5_3_f720368_1563972756614_449826_20715" association="_18_5_3_f720368_1532697864903_131889_19613">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957837_554674_11963" annotatedElement="_18_5_3_f720368_1532697864903_416612_19614">
+            <body>Represents the  failure mode which is reached if a system element fails.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642455_955881_97" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642456_308347_98" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532698575302_52178_20089" name="cause" visibility="private" type="_18_5_3_f720368_1532698508263_912563_19981" isOrdered="true" aggregation="composite" redefinedProperty="_18_5_3_f720368_1537816137984_26042_23234" subsettedProperty="_18_5_3_f720368_1563972756614_449826_20715" association="_18_5_3_f720368_1532698575302_8297_20088">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957837_351331_11965" annotatedElement="_18_5_3_f720368_1532698575302_52178_20089">
+            <body>Represents the cause of the failure of a system element.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642456_288571_103" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1532698599890_58763_20140" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532698175854_601714_19773" name="finalEffect" visibility="private" type="_18_5_3_f720368_1532697893611_386348_19642" aggregation="composite" redefinedProperty="_18_5_3_f720368_1537816145884_222804_23273" association="_18_5_3_f720368_1532698175854_535348_19772">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957837_328619_11964" annotatedElement="_18_5_3_f720368_1532698175854_601714_19773">
+            <body>Represents the effect which occurs on the system border.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642457_659215_119" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1532698193398_600646_19803" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1533566959763_931838_19500" name="previousRPNValues" isOrdered="true" isUnique="false" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957837_554093_11966" annotatedElement="_18_5_3_f720368_1533566959763_931838_19500">
+            <body>Represents the assessed risk priority number before mitigating the risk of a failure.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1533566959765_918254_19502" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1533566959764_861883_19501" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_2_30b0125_1569185054699_662835_2776" name="harmPotential" type="_18_5_3_f720368_1537816958459_110280_23986" aggregation="composite" redefinedProperty="_18_5_3_f720368_1537816168474_333028_23331" subsettedProperty="_18_5_3_f720368_1563972756614_449826_20715" association="_19_0_2_30b0125_1569185054823_12275_2781">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569185054703_634706_2778" annotatedElement="_19_0_2_30b0125_1569185054699_662835_2776">
+            <body>Pre-existing risk. Not used in FMEA method, therefore redefined in this library with multiplicity [0]</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_2_30b0125_1569185054705_999603_2779" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_2_30b0125_1569185054702_505367_2777" name="" visibility="public"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1532697864903_131889_19613" name="" visibility="public" memberEnd="_18_5_3_f720368_1532697864903_416612_19614 _18_5_3_f720368_1532697864903_854535_19615">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532697864903_854535_19615" name="" visibility="private" type="_18_5_3_f720368_1532687415384_829605_18495" association="_18_5_3_f720368_1532697864903_131889_19613">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642457_910326_115" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642457_441653_116" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1532698175854_535348_19772" name="" visibility="public" memberEnd="_18_5_3_f720368_1532698175854_601714_19773 _18_5_3_f720368_1532698175855_288785_19774">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532698175855_288785_19774" name="" visibility="private" type="_18_5_3_f720368_1532687415384_829605_18495" association="_18_5_3_f720368_1532698175854_535348_19772">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642456_578698_104" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642456_158881_105" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1532698575302_8297_20088" name="" visibility="public" memberEnd="_18_5_3_f720368_1532698575302_52178_20089 _18_5_3_f720368_1532698575303_236330_20090">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532698575303_236330_20090" name="" visibility="private" type="_18_5_3_f720368_1532687415384_829605_18495" association="_18_5_3_f720368_1532698575302_8297_20088">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642454_761432_76" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642454_916083_77" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_2_30b0125_1569185054823_12275_2781" name="" visibility="public" memberEnd="_19_0_2_30b0125_1569185054823_705272_2782 _19_0_2_30b0125_1569185054699_662835_2776">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_2_30b0125_1569185054823_705272_2782" name="" visibility="private" type="_18_5_3_f720368_1532687415384_829605_18495" association="_19_0_2_30b0125_1569185054823_12275_2781">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642456_678238_113" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642456_776056_114" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_2_8e60263_1569274101653_878417_16269" name="LossOfFunction" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_8e60263_1569274920754_974024_16619" annotatedElement="_19_0_2_8e60263_1569274101653_878417_16269">
+          <body>A failure mode representing loss of function e.g., the function is inoperable, or suddenly fails.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_19_0_2_8e60263_1569274173683_525444_16321" general="_18_5_3_8760274_1531328563631_949308_45486"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_2_8e60263_1569274350157_740674_16324" name="DegradationOfFunction" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_8e60263_1569275146932_447423_16620" annotatedElement="_19_0_2_8e60263_1569274350157_740674_16324">
+          <body>A failure mode representing a degradation of function or loss of function over time.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_19_0_2_8e60263_1569274350158_895262_16325" general="_18_5_3_8760274_1531328563631_949308_45486"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_2_8e60263_1569274353405_986851_16327" name="IntermittentFunction" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_8e60263_1569275159556_101237_16628" annotatedElement="_19_0_2_8e60263_1569274353405_986851_16327">
+          <body>A failure mode representing an intermittent function or the random stops and starts of a function.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_19_0_2_8e60263_1569274353405_751394_16328" general="_18_5_3_8760274_1531328563631_949308_45486"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_2_8e60263_1569274356180_207_16330" name="PartialFunction" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_8e60263_1569275162042_925309_16629" annotatedElement="_19_0_2_8e60263_1569274356180_207_16330">
+          <body>A failure mode representing a partial function or loss of performance.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_19_0_2_8e60263_1569274356181_149873_16331" general="_18_5_3_8760274_1531328563631_949308_45486"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_2_8e60263_1569274453056_640145_16333" name="UnintendedFunction" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_8e60263_1569275164648_214252_16630" annotatedElement="_19_0_2_8e60263_1569274453056_640145_16333">
+          <body>A failure mode representing an unintended function, function operating at the wrong time, with unintended direction, or unequal performance.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_19_0_2_8e60263_1569274453057_623202_16334" general="_18_5_3_8760274_1531328563631_949308_45486"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_2_8e60263_1569274456149_197264_16336" name="ExceedingFunction" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_8e60263_1569275169431_627992_16631" annotatedElement="_19_0_2_8e60263_1569274456149_197264_16336">
+          <body>A failure mode representing a function exceeding the acceptable operational performance.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_19_0_2_8e60263_1569274456150_175125_16337" general="_18_5_3_8760274_1531328563631_949308_45486"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_2_8e60263_1569274459198_937282_16339" name="DelayedFunction" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_8e60263_1569275173151_978124_16632" annotatedElement="_19_0_2_8e60263_1569274459198_937282_16339">
+          <body>A failure mode representing a delayed function or function operating after an unintended time interval.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_19_0_2_8e60263_1569274459198_152656_16340" general="_18_5_3_8760274_1531328563631_949308_45486"/>
+      </packagedElement>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_19_0_3_30b0125_1604651172641_106395_602">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZkzWIKGEEe2bVYn4w_1Jow" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZkzWIaGEEe2bVYn4w_1Jow" key="Version" value="0.0.10"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZkzWIqGEEe2bVYn4w_1Jow" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZkzWI6GEEe2bVYn4w_1Jow" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZkzWJKGEEe2bVYn4w_1Jow" key="Date" value="2023-01-31"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZkzWJaGEEe2bVYn4w_1Jow" key="Author" value=""/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1Ms8vYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="FMEA_Profile.profile.uml#_WsfsQKGEEe2bVYn4w_1Jow"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="FMEA_Profile.profile.uml#_19_0_8760274_1528900581823_611309_25377"/>
+      </profileApplication>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_18_5_3_f720368_1537717000771_755724_15251" name="General Concepts Library" visibility="public" URI="">
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1532698508263_912563_19981" name="AbstractCause" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888111470_939737_16084" annotatedElement="_18_5_3_f720368_1532698508263_912563_19981">
+          <body>An AbstractCause is a precursor event that activates other events. The AbstractCause is a root class for all kinds of causes; method developers should derive from it more specific kinds of causes with specific types for occurrence property. One case is demonstrated in the Cause element that redefines the occurrence property of the AbstractCause with the type Real. See the diagram General Concepts Library. See also: Fault association end of the Activation association. </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_8760274_1531328633260_443523_45557" general="_18_5_3_f720368_1537730801362_861482_13475"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532698602720_51546_20148" name="occurrence" aggregation="composite" redefinedProperty="_18_5_3_f720368_1537730801572_112552_13476">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888156275_425265_16092" annotatedElement="_18_5_3_f720368_1532698602720_51546_20148">
+            <body>A placeholder attribute without a type declared, for indicating how often this situation occurs. It is a redefinition of likelihood.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642319_61471_55" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642319_89427_56" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1533567002346_836677_19512" name="premitigationOccurrences" isOrdered="true" isUnique="false" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888169568_650070_16093" annotatedElement="_18_5_3_f720368_1533567002346_836677_19512">
+            <body>A placeholder attribute for indicating how often this situation occurred prior to mitigation. This property can have more than one value. </body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1533567002353_562421_19514" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1533567002353_29322_19513" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1532697893611_386348_19642" name="AbstractEffect" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551943764567_571789_16181" annotatedElement="_18_5_3_f720368_1532697893611_386348_19642">
+          <body>An AbstractEffect is a DysfunctionalEvent that is a result or a consequence of another Situation. The AbstractEffect is a root class for all effects; method developers should derive more specific kinds of effects with specific types for the severity property. One case is demonstrated in the Effect element that redefines the severity property of the AbstractEffect with the type Real. See the diagram General Concepts Library. See also: ErrorPropagation, ErrorRealization associations.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_8760274_1531328625522_335148_45554" general="_18_5_3_f720368_1537729437929_750972_12332"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532698241398_520505_19820" name="severity" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551943794232_486126_16189" annotatedElement="_18_5_3_f720368_1532698241398_520505_19820">
+            <body>A placeholder attribute without a type declared, for indicating the estimate of the extent of harm.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642320_426366_65" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642320_615358_66" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1533567035987_692892_19523" name="premitigationSeverities" isOrdered="true" isUnique="false" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551943778316_624298_16184" annotatedElement="_18_5_3_f720368_1533567035987_692892_19523">
+            <body>A placeholder attribute for indicating the estimate of the extent of harm that would have resulted from the previous design iterations. This property can have more than one value.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1533567035988_369892_19525" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1533567035987_883209_19524" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_8760274_1531328558153_271100_45440" name="Effect" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551943884598_852915_16196" annotatedElement="_18_5_3_8760274_1531328558153_271100_45440">
+          <body>An Effect is a specific implementation of AbstractEffect that defines the severity property with the type Real.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1532698396374_767965_19903" general="_18_5_3_f720368_1532697893611_386348_19642"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505814_912199_44665" name="severity" aggregation="composite" redefinedProperty="_18_5_3_f720368_1532698241398_520505_19820">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551943919843_905692_16203" annotatedElement="_18_5_3_8760274_1531328505814_912199_44665">
+            <body>An attribute with the type Real, for indicating the estimate of the extent of harm.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642319_183845_57" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642319_975509_58" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532688877892_981606_19111" name="premitigationSeverities" isOrdered="true" isUnique="false" aggregation="composite" redefinedProperty="_18_5_3_f720368_1533567035987_692892_19523">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551943928901_604005_16204" annotatedElement="_18_5_3_f720368_1532688877892_981606_19111">
+            <body>An attribute for indicating the estimate of the extent of harm that would have resulted from the previous design iterations. This property stores more than one value.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1532688877893_815772_19113" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1532688877893_613423_19112" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_8760274_1531328528301_224185_45394" name="Cause" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888198340_426734_16096" annotatedElement="_18_5_3_8760274_1531328528301_224185_45394">
+          <body>A Cause is a specific implementation of AbstractCause that defines occurrence property with the type Real.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1532698554997_978045_20069" general="_18_5_3_f720368_1532698508263_912563_19981"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505814_586697_44664" name="occurrence" aggregation="composite" redefinedProperty="_18_5_3_f720368_1532698602720_51546_20148">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888222127_777844_16102" annotatedElement="_18_5_3_8760274_1531328505814_586697_44664">
+            <body>An attribute with the type Real, for indicating how often this situation occurs.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642319_845578_45" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642319_943494_46" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328720539_788156_45602" name="premitigationOccurrences" isOrdered="true" isUnique="false" aggregation="composite" redefinedProperty="_18_5_3_f720368_1533567002346_836677_19512">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888278089_209161_16103" annotatedElement="_18_5_3_8760274_1531328720539_788156_45602">
+            <body>An attribute for indicating how often this situation occurred prior to mitigation. This property can have more than one value. </body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1533039378761_37860_12016" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1533039378762_547141_12017" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1537729437929_750972_12332" name="DysfunctionalEvent" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888449381_464228_16129" annotatedElement="_18_5_3_f720368_1537729437929_750972_12332">
+          <body>An event whose occurrence can cause a dysfunctional behavior of a system or a part of the system.  The DysfunctionalEvent concept is a generalization of such concepts as failure, feared event, etc. that are considered in the domain-specific safety standards. It might be extended for introducing new safety and reliability methods and techniques.
+</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1537729540988_335458_12395" general="_18_5_3_f720368_1537730801362_861482_13475"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1537730801362_861482_13475" name="AbstractEvent" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888410155_656602_16121" annotatedElement="_18_5_3_f720368_1537730801362_861482_13475">
+          <body>Anything that causes a change in a system under analysis or environment. Event has an identifiable starting point in time.
+</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1537730801572_291501_13477" general="_18_5_3_f720368_1524488497458_106017_16308"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1537730801572_112552_13476" name="likelihood" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552851789496_338126_21251" annotatedElement="_18_5_3_f720368_1537730801572_112552_13476">
+            <body>A placeholder attribute for indicating likelihood of occurrence of an event. It is intentionally left without a type. Method developers can derive more specialized ways to characterize likelihood.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642319_753004_49" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642319_934497_50" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1537815489665_967944_22796" name="Hazard" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551943695926_21981_16172" annotatedElement="_18_5_3_f720368_1537815489665_967944_22796">
+          <body>A potential source of harm (IEC 61508-4, 3.1.2). Source of harm is non-malicious.  The term includes danger to persons arising within a short time scale (for example, fire and explosion) and also those that have a long-term effect on a person’s health (for example, release of a toxic substance).</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1537816987614_775721_24058" general="_18_5_3_f720368_1537816958459_110280_23986"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1537816026475_379095_23108" name="AbstractRisk" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888665017_715797_16156" annotatedElement="_18_5_3_f720368_1537816026475_379095_23108">
+          <body>An AbstractRisk is a Scenario - combination of harm potential (Hazard or Vulnerability), triggering event (AbstractEvent), and resulting harm (AbstractEffect).  The AbstractRisk is a placeholder to enable modelers to specify methodology-specific kinds of risks.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_19_0_2_30b0125_1569180071910_253153_1041" general="_19_0_2_30b0125_1567605657641_831831_104784"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1537815812672_441109_22998" name="score" aggregation="composite" isDerived="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552931535442_962020_17845" annotatedElement="_18_5_3_f720368_1537815812672_441109_22998">
+            <body>Combination of the probability of occurrence of abstract event resulting from abstract harm and the severity of that harm (IEC 61508-4, 3.1.5, modified). An example could be risk priority number (RPN) in FMEA analysis.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642319_883193_59" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642319_462688_60" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1537816137984_26042_23234" name="trigger" visibility="private" type="_18_5_3_f720368_1537730801362_861482_13475" aggregation="composite" subsettedProperty="_18_5_3_f720368_1563972756614_449826_20715" association="_18_5_3_f720368_1537816137984_715051_23233">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552931940087_522162_17884" annotatedElement="_18_5_3_f720368_1537816137984_26042_23234">
+            <body>Triggering event (AbstractEvent) which causes harm to materialize.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_2_30b0125_1569184827007_490999_2628" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_2_30b0125_1569184827007_722492_2629" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1537816145884_222804_23273" name="harm" visibility="private" type="_18_5_3_f720368_1532697893611_386348_19642" aggregation="composite" subsettedProperty="_18_5_3_f720368_1563972756614_449826_20715" association="_18_5_3_f720368_1537816145884_380080_23272">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552931962880_930630_17885" annotatedElement="_18_5_3_f720368_1537816145884_222804_23273">
+            <body>Resulting harm (AbstractEffect).</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_2_30b0125_1569184835704_61848_2641" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_2_30b0125_1569184835704_542172_2642" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1537816168474_333028_23331" name="harmPotential" visibility="private" type="_18_5_3_f720368_1537816958459_110280_23986" aggregation="composite" subsettedProperty="_18_5_3_f720368_1563972756614_449826_20715" association="_18_5_3_f720368_1537816168474_859212_23330">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552931974340_996696_17886" annotatedElement="_18_5_3_f720368_1537816168474_333028_23331">
+            <body>Pre-existing risk (HarmPotential).</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_2_30b0125_1569184823528_422633_2622" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_2_30b0125_1569184823528_188094_2623" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1537816137984_715051_23233" name="" visibility="public" memberEnd="_18_5_3_f720368_1537816137984_26042_23234 _18_5_3_f720368_1537816137984_483619_23235">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1537816137984_483619_23235" name="" visibility="private" type="_18_5_3_f720368_1537816026475_379095_23108" association="_18_5_3_f720368_1537816137984_715051_23233">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642320_741598_67" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642320_264004_68" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1537816145884_380080_23272" name="" visibility="public" memberEnd="_18_5_3_f720368_1537816145884_222804_23273 _18_5_3_f720368_1537816145884_356721_23274">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1537816145884_356721_23274" name="" visibility="private" type="_18_5_3_f720368_1537816026475_379095_23108" association="_18_5_3_f720368_1537816145884_380080_23272">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642319_679681_51" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642319_680622_52" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1537816168474_859212_23330" name="" visibility="public" memberEnd="_18_5_3_f720368_1537816168474_333028_23331 _18_5_3_f720368_1537816168474_2997_23332">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1537816168474_2997_23332" name="" visibility="private" type="_18_5_3_f720368_1537816026475_379095_23108" association="_18_5_3_f720368_1537816168474_859212_23330">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642320_936066_63" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642320_766979_64" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1537816958459_110280_23986" name="HarmPotential" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551943654423_262383_16170" annotatedElement="_18_5_3_f720368_1537816958459_110280_23986">
+          <body>A state where there is the potential of harm.  This includes all types of harm arising from malicious or non-malicious causes.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1537816973789_323775_24048" general="_18_5_3_f720368_1524488497458_106017_16308"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1532697812126_22480_19557" name="AbstractFailureMode" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_f720368_1544390915171_189050_34492" annotatedElement="_18_5_3_f720368_1532697812126_22480_19557">
+          <body>The manner in which a system or part of a system (e.g. functions, components, hardware, software, hardware parts, software units), can fail (ISO 26262-1:2018, definition 3.51, modified).  The AbstractFailureMode is a root class for all failure modes; method developers should derive more specific kinds of failure modes with specific types for the detectability property. One case is demonstrated in the FailureMode element that redefines the detectability property of the AbstractFailureMode with the type Real.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_19_0_3_8e60263_1603121244922_474529_70" general="_19_0_3_8e60263_1603121244891_499978_28"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1532698222717_661673_19814" name="detectability" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888327475_974498_16110" annotatedElement="_18_5_3_f720368_1532698222717_661673_19814">
+            <body>A placeholder attribute without a type declared, for indicating how easy it is to detect the this failure mode.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642320_961453_61" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642320_679737_62" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1533566927469_792067_19488" name="premitigationDetectabilities" isOrdered="true" isUnique="false" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888336850_596545_16111" annotatedElement="_18_5_3_f720368_1533566927469_792067_19488">
+            <body>A placeholder attribute for indicating how easy it would have been to detect the situation with the previous design iteration. This property can have more than one value.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1533566927473_346551_19490" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1533566927472_604408_19489" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_8760274_1531328563631_949308_45486" name="FailureMode" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_f720368_1544391033493_694008_34493" annotatedElement="_18_5_3_8760274_1531328563631_949308_45486">
+          <body>FailureMode is a specific implementation of AbstractFailureMode that defines the detectability property with the type Real.  A failure is an instance of a FailureMode.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1532697853671_411107_19608" general="_18_5_3_f720368_1532697812126_22480_19557"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328505814_542073_44666" name="detectability" aggregation="composite" redefinedProperty="_18_5_3_f720368_1532698222717_661673_19814">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888387254_934495_16117" annotatedElement="_18_5_3_8760274_1531328505814_542073_44666">
+            <body>An attribute  with the type Real, for indicating how easy it is to detect the situation.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642319_861755_47" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642319_51365_48" name="" visibility="public" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_8760274_1531328674671_106649_45599" name="premitigationDetectabilities" isOrdered="true" isUnique="false" aggregation="composite" redefinedProperty="_18_5_3_f720368_1533566927469_792067_19488">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1551888395805_468013_16118" annotatedElement="_18_5_3_8760274_1531328674671_106649_45599">
+            <body>An attribute for indicating how easy it would have been to detect the situation with the previous design iteration. This property can have more than one value.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1532688559472_803973_18745" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1532688559472_666784_18746" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1563970982372_821249_19236" name="ErrorPropagation" visibility="public" memberEnd="_18_5_3_f720368_1563970982372_874202_19237 _18_5_3_f720368_1563970982373_621735_19238" navigableOwnedEnd="_18_5_3_f720368_1563970982373_621735_19238 _18_5_3_f720368_1563970982372_874202_19237">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569186774195_871192_3259" annotatedElement="_18_5_3_f720368_1563970982372_821249_19236">
+          <body>A causal relationship describing the propagation of errors (one error leading to another) throughout the system.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1563971051763_12393_19330" general="_18_5_3_f720368_1524488344311_80229_16174"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1563970982372_874202_19237" name="toError" visibility="private" type="_18_5_3_f720368_1537729437929_750972_12332" redefinedProperty="_18_5_3_f720368_1524488344311_922751_16175" association="_18_5_3_f720368_1563970982372_821249_19236">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569186866235_134205_3263" annotatedElement="_18_5_3_f720368_1563970982372_874202_19237">
+            <body>The successor error.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1563971067491_718581_19351" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1563971067491_438198_19352" name="" visibility="public" value="*"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1563970982373_621735_19238" name="fromError" visibility="private" type="_18_5_3_f720368_1537729437929_750972_12332" redefinedProperty="_18_5_3_f720368_1524488344311_473760_16176" association="_18_5_3_f720368_1563970982372_821249_19236">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569186851563_275950_3262" annotatedElement="_18_5_3_f720368_1563970982373_621735_19238">
+            <body>The predecessor error.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1563971060577_775679_19335" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1563971060578_693314_19336" name="" visibility="public" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1563971278840_429161_19707" name="Activation" visibility="public" memberEnd="_18_5_3_f720368_1563971278841_751977_19708 _18_5_3_f720368_1563971278842_543619_19709" navigableOwnedEnd="_18_5_3_f720368_1563971278841_751977_19708 _18_5_3_f720368_1563971278842_543619_19709">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569186411641_760829_3237" annotatedElement="_18_5_3_f720368_1563971278840_429161_19707">
+          <body>A causal relationship describing the propagation of the initial AbstractCause situation to the DysfunctionalEvent situation in the system.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1563971380959_297740_19845" general="_18_5_3_f720368_1524488344311_80229_16174"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1563971278841_751977_19708" name="error" visibility="private" type="_18_5_3_f720368_1537729437929_750972_12332" redefinedProperty="_18_5_3_f720368_1524488344311_922751_16175" association="_18_5_3_f720368_1563971278840_429161_19707">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569186704067_146778_3256" annotatedElement="_18_5_3_f720368_1563971278841_751977_19708">
+            <body>The dysfunctional situation (error) of the system.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1563971358855_983590_19829" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1563971358855_679124_19830" name="" visibility="public" value="*"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1563971278842_543619_19709" name="fault" visibility="private" type="_18_5_3_f720368_1532698508263_912563_19981" redefinedProperty="_18_5_3_f720368_1524488344311_473760_16176" association="_18_5_3_f720368_1563971278840_429161_19707">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569186670370_7228_3255" annotatedElement="_18_5_3_f720368_1563971278842_543619_19709">
+            <body>The causal fault.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1563971346574_786280_19811" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1563971346575_782357_19812" name="" visibility="public" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1563972756614_970625_20714" name="" visibility="public" memberEnd="_18_5_3_f720368_1563972756614_449826_20715 _18_5_3_f720368_1563972756614_842818_20716">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1563972756614_842818_20716" name="" visibility="private" type="_19_0_2_30b0125_1567605657641_831831_104784" association="_18_5_3_f720368_1563972756614_970625_20714">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642319_541780_53" name="" visibility="public" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642319_425306_54" name="" visibility="public" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1563972037102_913706_20308" name="ErrorRealization" visibility="public" memberEnd="_18_5_3_f720368_1563972037102_772837_20309 _18_5_3_f720368_1563972037103_711081_20310" navigableOwnedEnd="_18_5_3_f720368_1563972037103_711081_20310 _18_5_3_f720368_1563972037102_772837_20309">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569186951470_332471_3266" annotatedElement="_18_5_3_f720368_1563972037102_913706_20308">
+          <body>A causal relationship describing the propagation of an error to a failure.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_f720368_1563972591359_722670_20647" general="_18_5_3_f720368_1524488344311_80229_16174"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1563972037103_711081_20310" name="error" visibility="private" type="_18_5_3_f720368_1537729437929_750972_12332" redefinedProperty="_18_5_3_f720368_1524488344311_473760_16176" association="_18_5_3_f720368_1563972037102_913706_20308">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569187167116_724535_3310" annotatedElement="_18_5_3_f720368_1563972037103_711081_20310">
+            <body>The predecessor error.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1563972388569_92198_20431" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1563972388569_736230_20432" name="" visibility="public" value="*"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1563972037102_772837_20309" name="failure" visibility="private" type="_18_5_3_f720368_1537729437929_750972_12332" redefinedProperty="_18_5_3_f720368_1524488344311_922751_16175" association="_18_5_3_f720368_1563972037102_913706_20308">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569187248748_284178_3311" annotatedElement="_18_5_3_f720368_1563972037102_772837_20309">
+            <body>The resulting failure.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1563972397056_246846_20453" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1563972397057_956243_20454" name="" visibility="public" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_2_30b0125_1567605657641_831831_104784" name="Scenario" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569185668581_449818_3070" annotatedElement="_19_0_2_30b0125_1567605657641_831831_104784">
+          <body>A composite situation, consisting of multiple steps (that are themselves situations). Steps should have causal ordering, indicated by Causality relationships or sub-types thereof.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_19_0_2_30b0125_1567605694523_104171_104874" general="_18_5_3_f720368_1524488497458_106017_16308"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1563972756614_449826_20715" name="scenarioStep" visibility="private" type="_18_5_3_f720368_1524488497458_106017_16308" aggregation="composite" association="_18_5_3_f720368_1563972756614_970625_20714">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_2_30b0125_1569185751772_617126_3078" annotatedElement="_18_5_3_f720368_1563972756614_449826_20715">
+            <body>A situation which is a part of a bigger situation - scenario.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1563972770581_90272_20754" name="" visibility="public"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_f720368_1563972770581_642111_20755" name="" visibility="public" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_8e60263_1603121244891_499978_28" name="UndesiredState" visibility="public" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_3_8e60263_1603122235590_994984_277" annotatedElement="_19_0_3_8e60263_1603121244891_499978_28">
+          <body>An element's condition as a specific time which represents an unintended situation. </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_18_5_3_8760274_1531328637603_146186_45560" general="_18_5_3_f720368_1537729437929_750972_12332"/>
+      </packagedElement>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_19_0_3_30b0125_1604650634255_325927_545">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZlJ7cKGEEe2bVYn4w_1Jow" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlJ7caGEEe2bVYn4w_1Jow" key="Version" value="0.0.10"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlJ7cqGEEe2bVYn4w_1Jow" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlJ7c6GEEe2bVYn4w_1Jow" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlJ7dKGEEe2bVYn4w_1Jow" key="Date" value="2023-01-31"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlJ7daGEEe2bVYn4w_1Jow" key="Author" value=""/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1GmUPYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="General_Concepts_Profile.profile.uml#_WseeIKGEEe2bVYn4w_1Jow"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="General_Concepts_Profile.profile.uml#_18_5_3_f720368_1537716950274_148762_15249"/>
+      </profileApplication>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_19_0_3_30b0125_1604658240204_581259_5220" name="Model" visibility="public" URI="" viewpoint="">
+      <packagedElement xmi:type="uml:Package" xmi:id="_19_0_8760274_1528902538032_405604_25272" name="Core Library" visibility="public" URI="">
+        <packagedElement xmi:type="uml:Class" xmi:id="_18_5_3_f720368_1524488497458_106017_16308" name="AnySituation" visibility="public" isAbstract="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_f720368_1544386042568_576341_32027" annotatedElement="_18_5_3_f720368_1524488497458_106017_16308">
+            <body>AnySituation is the universal root of all situations. All situations inherit from AnySituation.  A situation describes a set of situation occurrences of some type. The system, place, time and state parameters are described by classifiers rather than individual descriptions.  A situation occurrence is a system being in a given place at given time and in a given state.
+     
+For example, “Boeing 747 with S/N 12305 is being refueled at Gate 7 of Amsterdam Schiphol at 11:45 on Monday, 30th of July 2018.”</body>
+          </ownedComment>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1524488344311_473760_16176" name="from" visibility="private" type="_18_5_3_f720368_1524488497458_106017_16308" association="_18_5_3_f720368_1524488344311_80229_16174">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_f720368_1544386322466_585707_32132" annotatedElement="_18_5_3_f720368_1524488344311_473760_16176">
+              <body>A situation which precedes the one at the other end of the Causality relationship.</body>
+            </ownedComment>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_2a6010b_1560761810872_924321_18063" name="" visibility="public"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_2a6010b_1560761810872_925586_18064" name="" visibility="public" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1524488344311_922751_16175" name="to" visibility="private" type="_18_5_3_f720368_1524488497458_106017_16308" association="_18_5_3_f720368_1524488344311_80229_16174">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_f720368_1544386334037_426442_32133" annotatedElement="_18_5_3_f720368_1524488344311_922751_16175">
+              <body>A situation which follows the one at the other end of the Causality relationship.</body>
+            </ownedComment>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_2a6010b_1560761814096_71218_18069" name="" visibility="public"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18_5_3_2a6010b_1560761814096_538100_18070" name="" visibility="public" value="*"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_18_5_3_f720368_1524488344311_80229_16174" name="Causality" visibility="public" memberEnd="_18_5_3_f720368_1524488344311_922751_16175 _18_5_3_f720368_1524488344311_473760_16176">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_f720368_1544385990798_624801_32015" annotatedElement="_18_5_3_f720368_1524488344311_80229_16174">
+            <body>Universal root relationship between situations. All situation relationships inherit from this relationship.  Identifies cause and effect relationship between two situations. Causality could be direct (non-conditional), conditional or probabilistic or any other inter-situation relationship, defined by the user.  Multiple situations can cause one situation and vice versa - one situation can cause multiple other situations.
+     
+For example, a car in frequent contact with salt, causing safety-critical parts to corrode, which causes leaks in the brake line, causing the brakes to fail, causing a car accident, causing a passenger injury.</body>
+          </ownedComment>
+        </packagedElement>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_19_0_3_30b0125_1604650571309_113388_524">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZksocKGEEe2bVYn4w_1Jow" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZksocaGEEe2bVYn4w_1Jow" key="Version" value="0.0.10"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZksocqGEEe2bVYn4w_1Jow" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Zksoc6GEEe2bVYn4w_1Jow" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZksodKGEEe2bVYn4w_1Jow" key="Date" value="2023-01-31"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZksodaGEEe2bVYn4w_1Jow" key="Author" value=""/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1PJMPYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="Core_Profile.profile.uml#_Wsco8KGEEe2bVYn4w_1Jow"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="Core_Profile.profile.uml#_18_5_3_f720368_1544384771830_305848_23660"/>
+        </profileApplication>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="magicdraw_uml_standard_profile_v_0001" name="UML Standard Profile" visibility="public" URI="">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_be00301_1078843546940_242228_131" annotatedElement="magicdraw_uml_standard_profile_v_0001">
+        <body>UML Standard Profile contains a UML metamodel (metaclasses without properties and associations), Standard UML stereotypes defined in the annex C of UML specification, validation suites for UML model correctness and completeness checking, and stereotypes used by MagicDraw internally.</body>
+      </ownedComment>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_11_5_f720368_1159529670215_231387_1profileApplicationModell">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v07AIfYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Validation_Profile.profile.uml#_v02J7_YYEeytq_qdJ9WYGQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="UML_Standard_Profile.Validation_Profile.profile.uml#_11_5_f720368_1159529670215_231387_1"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_be00301_1073394351331_445580_2profileApplicationModell">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v0-qgfYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_v02wm_YYEeytq_qdJ9WYGQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_be00301_1073394351331_445580_2"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_18_5_3_f720368_1537716950274_148762_15249profileApplicationModell">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Zk5cwKGEEe2bVYn4w_1Jow" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Zk5cwaGEEe2bVYn4w_1Jow" key="Version" value="0.0.10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Zk5cwqGEEe2bVYn4w_1Jow" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Zk5cw6GEEe2bVYn4w_1Jow" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Zk5cxKGEEe2bVYn4w_1Jow" key="Date" value="2023-01-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Zk5cxaGEEe2bVYn4w_1Jow" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1EKEPYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="General_Concepts_Profile.profile.uml#_WseeIKGEEe2bVYn4w_1Jow"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="General_Concepts_Profile.profile.uml#_18_5_3_f720368_1537716950274_148762_15249"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_19_0beta_8bb027e_1484121177637_661582_4502profileApplicationModell">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1IbgPYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#_v008VfYYEeytq_qdJ9WYGQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#_19_0beta_8bb027e_1484121177637_661582_4502"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_16_6_8f90291_1254846042821_86742_517profileApplicationModell">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1JpofYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_v02If_YYEeytq_qdJ9WYGQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_16_6_8f90291_1254846042821_86742_517"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_11_5_be00301_1153310565718_226811_161profileApplicationModell">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1MF4PYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_v008ZfYYEeytq_qdJ9WYGQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_11_5_be00301_1153310565718_226811_161"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_19_0_8760274_1528900581823_611309_25377profileApplicationModell">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZlEb4KGEEe2bVYn4w_1Jow" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlEb4aGEEe2bVYn4w_1Jow" key="Version" value="0.0.10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlEb4qGEEe2bVYn4w_1Jow" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlEb46GEEe2bVYn4w_1Jow" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlEb5KGEEe2bVYn4w_1Jow" key="Date" value="2023-01-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlEb5aGEEe2bVYn4w_1Jow" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1Ms8fYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="FMEA_Profile.profile.uml#_WsfsQKGEEe2bVYn4w_1Jow"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="FMEA_Profile.profile.uml#_19_0_8760274_1528900581823_611309_25377"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_18_5_3_f720368_1544384771830_305848_23660profileApplicationModell">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZlHfMKGEEe2bVYn4w_1Jow" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlHfMaGEEe2bVYn4w_1Jow" key="Version" value="0.0.10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlHfMqGEEe2bVYn4w_1Jow" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlHfM6GEEe2bVYn4w_1Jow" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlHfNKGEEe2bVYn4w_1Jow" key="Date" value="2023-01-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlHfNaGEEe2bVYn4w_1Jow" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1OiIfYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Core_Profile.profile.uml#_Wsco8KGEEe2bVYn4w_1Jow"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="Core_Profile.profile.uml#_18_5_3_f720368_1544384771830_305848_23660"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_17_0_4beta_8ca0285_1361349406965_180847_3086profileApplicationModell">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1PJMvYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#_v0zEUvYYEeytq_qdJ9WYGQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#_17_0_4beta_8ca0285_1361349406965_180847_3086"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_11_5EAPbeta_be00301_1147434586638_637562_1900profileApplicationModell">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1QXUfYYEeytq_qdJ9WYGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="SysML.profile.uml#_v0zrvPYYEeytq_qdJ9WYGQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="SysML.profile.uml#_11_5EAPbeta_be00301_1147434586638_637562_1900"/>
+    </profileApplication>
+  </uml:Model>
+  <MagicDrawProfile:auxiliaryResource xmi:id="_v2HS8fYYEeytq_qdJ9WYGQ" base_Element="magicdraw_uml_standard_profile_v_0001"/>
+  <FMEAProfile:FMEAItem xmi:id="_v3o88PYYEeytq_qdJ9WYGQ" base_Class="_18_5_3_f720368_1532687415384_829605_18495" base_Class="_18_5_3_f720368_1532687415384_829605_18495"/>
+  <FMEAProfile:FMEAItem xmi:id="_v3o88fYYEeytq_qdJ9WYGQ" base_Class="_18_5_3_8760274_1531328505764_716305_44636" base_Class="_18_5_3_8760274_1531328505764_716305_44636"/>
+  <SysML.Blocks:BindingConnector xmi:id="_v3z8E_YYEeytq_qdJ9WYGQ" base_Connector="_18_5_3_8760274_1531328505856_481817_44691"/>
+  <SysML.Blocks:BindingConnector xmi:id="_v3z8FPYYEeytq_qdJ9WYGQ" base_Connector="_18_5_3_8760274_1531328505855_245856_44690"/>
+  <SysML.Blocks:BindingConnector xmi:id="_v3z8FfYYEeytq_qdJ9WYGQ" base_Connector="_18_5_3_8760274_1531328505857_576463_44693"/>
+  <SysML.Blocks:BindingConnector xmi:id="_v30jIPYYEeytq_qdJ9WYGQ" base_Connector="_18_5_3_8760274_1531328505856_895592_44692"/>
+  <SysML.Blocks:NestedConnectorEnd xmi:id="_v32_YPYYEeytq_qdJ9WYGQ" base_Element="_18_5_3_8760274_1531328505874_848328_44722" propertyPath="_18_5_3_8760274_1531328505857_888969_44695" base_ConnectorEnd="_18_5_3_8760274_1531328505874_848328_44722"/>
+  <SysML.Blocks:NestedConnectorEnd xmi:id="_v32_YfYYEeytq_qdJ9WYGQ" base_Element="_18_5_3_8760274_1531328505874_337057_44726" propertyPath="_18_5_3_8760274_1531328505858_816004_44696" base_ConnectorEnd="_18_5_3_8760274_1531328505874_337057_44726"/>
+  <SysML.Blocks:NestedConnectorEnd xmi:id="_v33mcPYYEeytq_qdJ9WYGQ" base_Element="_18_5_3_8760274_1531328505873_209890_44717" propertyPath="_18_5_3_8760274_1531328505858_816004_44696" base_ConnectorEnd="_18_5_3_8760274_1531328505873_209890_44717"/>
+  <SysML.Blocks:NestedConnectorEnd xmi:id="_v33mcfYYEeytq_qdJ9WYGQ" base_Element="_18_5_3_8760274_1531328505873_375519_44720" propertyPath="_18_5_3_8760274_1531328505858_816004_44696" base_ConnectorEnd="_18_5_3_8760274_1531328505873_375519_44720"/>
+  <SysML.Blocks:NestedConnectorEnd xmi:id="_v33mcvYYEeytq_qdJ9WYGQ" base_Element="_18_5_3_8760274_1531328505874_640865_44725" propertyPath="_18_5_3_8760274_1531328505814_817870_44663" base_ConnectorEnd="_18_5_3_8760274_1531328505874_640865_44725"/>
+  <SysML.Blocks:NestedConnectorEnd xmi:id="_v33mc_YYEeytq_qdJ9WYGQ" base_Element="_18_5_3_8760274_1531328505874_437297_44723" propertyPath="_18_5_3_8760274_1531328505858_816004_44696" base_ConnectorEnd="_18_5_3_8760274_1531328505874_437297_44723"/>
+  <SysML.Blocks:NestedConnectorEnd xmi:id="_v34NgPYYEeytq_qdJ9WYGQ" base_Element="_18_5_3_8760274_1531328505872_27458_44716" propertyPath="_18_5_3_8760274_1531328505810_284346_44661" base_ConnectorEnd="_18_5_3_8760274_1531328505872_27458_44716"/>
+  <SysML.ConstraintBlocks:ConstraintBlock xmi:id="_v34NgfYYEeytq_qdJ9WYGQ" base_Class="_18_5_3_8760274_1531328505764_498777_44637"/>
+</xmi:XMI>
