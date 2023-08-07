@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmi:id="_2yVy8NNJEeuWzpSmbGWKrw" identifier="Boyaci_1624359972760_Semantic" name="Boyaci_1624359972760_Semantic" metamodelNsURI="Boyaci_1624359972760_Semantic">
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_8s0NUNNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360012438" name="AND (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_-ZS9QNNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360023825" name="INHIBIT (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_-rhVsNNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360025735" name="MAJORITY_VOTE (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_-5PBkNNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360027173" name="NOT (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="__M3vQNNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360029233" name="OR (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="__b6Q0NNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360030810" name="SEQ (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="__-_IsNNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360034487" name="XOR (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_AxwCYNNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360039810" name="BasicEvent (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_BD8loNNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360041719" name="ConditionalEvent (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_BUI9wNNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360043416" name="DormantEvent (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_BvRakNNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360046261" name="HouseEvent (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_COY_gNNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360049525" name="IntermediateEvent (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_DN8YANNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360056189" name="TopEvent (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_EOOwUNNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360062928" name="ZeroEvent (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.diagram.common/resources/SysML16DiUML.elementtypesconfigurations#org.eclipse.papyrus.sysml16di.Block_Class_MetaclassShape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_oyv2INNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360012438_1624360308341" name="AND (AND (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_8s0NUdNJEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_p4_sgNNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360039810_1624360315716" name="BasicEvent (BasicEvent (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_AxwCYdNKEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_r-_IoNNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360041719_1624360329765" name="ConditionalEvent (ConditionalEvent (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_BD8lodNKEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_tnewcNNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360043416_1624360340723" name="DormantEvent (DormantEvent (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_BUI9wdNKEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_vvfl0NNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360046261_1624360354986" name="HouseEvent (HouseEvent (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_BvRakdNKEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_yhUNMNNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360023825_1624360373634" name="INHIBIT (Block)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_-ZTkUNNJEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_0X7wkNNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360023825_1624360386069" name="INHIBIT (INHIBIT (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_-ZTkUNNJEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_2Nj1cNNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360049525_1624360398403" name="IntermediateEvent (IntermediateEvent (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_COZmkNNKEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_3kIm0NNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360025735_1624360407482" name="MAJORITY_VOTE (MAJORITY_VOTE (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_-rhVsdNJEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_4b-00NNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360027173_1624360413338" name="NOT (NOT (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_-5PBkdNJEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_6BMfINNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360029233_1624360423951" name="OR (OR (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#__M3vQdNJEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_7oiQYNNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360030810_1624360434786" name="SEQ (SEQ (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#__b634NNJEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_9foU4NNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360056189_1624360447274" name="TopEvent (TopEvent (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_DN8YAdNKEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="__PLm8NNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360034487_1624360458970" name="XOR (XOR (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#__-_IsdNJEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_ATs_ANNLEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360062928_1624360466156" name="ZeroEvent (ZeroEvent (Block))" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_EOOwUdNKEeuWzpSmbGWKrw"/>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_8s00YNNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360012438_ASAC" target="_8s0NUNNJEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_8s00YdNJEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::AND" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_-ZTkVdNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360023825_ASAC" target="_-ZS9QNNJEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_-ZTkVtNJEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::INHIBIT" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_-rhVttNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360025735_ASAC" target="_-rhVsNNJEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_-rhVt9NJEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::MAJORITY_VOTE" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_-5PBltNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360027173_ASAC" target="_-5PBkNNJEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_-5PBl9NJEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::NOT" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="__M4WU9NJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360029233_ASAC" target="__M3vQNNJEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="__M4WVNNJEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::OR" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="__b635dNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360030810_ASAC" target="__b6Q0NNJEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="__b635tNJEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::SEQ" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="__-_IttNJEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360034487_ASAC" target="__-_IsNNJEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="__-_It9NJEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::XOR" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_AxwCZtNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360039810_ASAC" target="_AxwCYNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_AxwCZ9NKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::BasicEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_BD9MsNNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360041719_ASAC" target="_BD8loNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_BD9MsdNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::ConditionalEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_BUJk0tNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360043416_ASAC" target="_BUI9wNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_BUJk09NKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::DormantEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_BvRaltNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360046261_ASAC" target="_BvRakNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_BvRal9NKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::HouseEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_COZmldNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360049525_ASAC" target="_COY_gNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_COZmltNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::IntermediateEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_DN8_FNNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360056189_ASAC" target="_DN8YANNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_DN8_FdNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::TopEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_EOOwVtNKEeuWzpSmbGWKrw" identifier="EnBE.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360062928_ASAC" target="_EOOwUNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_EOOwV9NKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::ZeroEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_oywdMtNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360012438_1624360308341_ASAC" target="_oyv2INNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_oywdM9NKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::AND" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_p4_shtNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360039810_1624360315716_ASAC" target="_p4_sgNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_p5ATkNNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::BasicEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_r-_IptNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360041719_1624360329765_ASAC" target="_r-_IoNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_r-_vsNNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::ConditionalEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_tnewdtNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360043416_1624360340723_ASAC" target="_tnewcNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_tnewd9NKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::DormantEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_vvgM5dNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360046261_1624360354986_ASAC" target="_vvfl0NNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_vvgM5tNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::HouseEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_0X8XoNNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360023825_1624360386069_ASAC" target="_0X7wkNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_0X8XodNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::INHIBIT" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_2NkcgNNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360049525_1624360398403_ASAC" target="_2Nj1cNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_2NkcgdNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::IntermediateEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_3kJN5NNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360025735_1624360407482_ASAC" target="_3kIm0NNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_3kJN5dNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::MAJORITY_VOTE" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_4b_b49NKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360027173_1624360413338_ASAC" target="_4b-00NNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_4b_b5NNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::NOT" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_6BNGMNNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360029233_1624360423951_ASAC" target="_6BMfINNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_6BNGMdNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::OR" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_7oiQZtNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360030810_1624360434786_ASAC" target="_7oiQYNNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_7oiQZ9NKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::SEQ" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_9fo78dNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360056189_1624360447274_ASAC" target="_9foU4NNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_9fo78tNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::TopEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="__PMOANNKEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360034487_1624360458970_ASAC" target="__PLm8NNKEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="__PMOAdNKEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::XOR" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_ATs_BtNLEeuWzpSmbGWKrw" identifier="FTA Palette.org.eclipse.papyrus.sysML.palette.bdd.Block_1624360062928_1624360466156_ASAC" target="_ATs_ANNLEeuWzpSmbGWKrw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_ATtmENNLEeuWzpSmbGWKrw" stereotypeQualifiedName="FTA Profile::ZeroEvent" updateName="true">
+      <requiredProfiles>FTA Profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

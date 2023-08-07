@@ -1,0 +1,361 @@
+
+
+[appliedStereotypes~="BE"] {
+	elementIcon: true;
+	/*fillColor:white;*/
+    displayIcon: true;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.basic.uml.profiles/shapes/BasicEvent.svg";
+	followSVGSymbol:true;
+    shapeVisibility: true;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: center;
+}
+
+[appliedStereotypes~="EBE"] {
+	elementIcon: true;
+	/*fillColor:white;*/
+    displayIcon: true;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.basic.uml.profiles/shapes/BasicEvent.svg";
+	followSVGSymbol:true;
+    shapeVisibility: true;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: center;
+}
+
+
+[appliedStereotypes~="ConditionalEvent"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="ConditionalEvent"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="ConditionalEvent"] {
+	elementIcon: false;
+				 
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: false;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/ConditionalEvent.svg";
+	followSVGSymbol:true;
+    shapeVisibility: true;
+    display: none;
+    isNameWrap : true
+}
+
+
+[appliedStereotypes~="HouseEvent"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="HouseEvent"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="HouseEvent"] {
+	elementIcon: false;
+	fillColor:white;
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: false;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/HouseEvent.svg";
+	followSVGSymbol:true;
+    shapeVisibility: true;
+    display: none;
+    isNameWrap : true
+}
+
+
+[appliedStereotypes~="ZeroEvent"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="ZeroEvent"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="ZeroEvent"] {
+	elementIcon: false;
+	fillColor:white;
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: false;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/ZeroEvent.svg";
+	followSVGSymbol:true;
+    shapeVisibility: true;
+    display: none;
+    isNameWrap : true
+}
+
+[appliedStereotypes~="PAND"] {
+	elementIcon: true;
+	/*fillColor:white;*/
+    displayIcon: true;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/PAND.svg";
+	followSVGSymbol:true;
+    shapeVisibility: false;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: center;
+}
+
+[appliedStereotypes~="PAND"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+
+[appliedStereotypes~="POR"] {
+	elementIcon: true;
+	/*fillColor:white;*/
+    displayIcon: true;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/POR.svg";
+	followSVGSymbol:true;
+    shapeVisibility: false;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: center;
+}
+
+[appliedStereotypes~="POR"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+
+[appliedStereotypes~="NOT"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="NOT"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="NOT"] {
+	elementIcon: true;
+	fillColor:white;
+    displayIcon: true;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/NOT.svg";
+	followSVGSymbol:true;
+    shapeVisibility: true;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: center;
+}
+
+
+
+
+[appliedStereotypes~="INHIBIT"] {
+	elementIcon: true;
+	fillColor:white;
+    displayIcon: true;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/INHIBIT.svg";
+	followSVGSymbol:true;
+    shapeVisibility: true;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: left;
+}
+
+
+
+
+[appliedStereotypes~="MAJORITY_VOTE"] {
+	elementIcon: true;
+	fillColor:white;
+    displayIcon: true;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/MAJORITY_VOTE.svg";
+	followSVGSymbol:true;
+    shapeVisibility: true;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: left;
+}
+
+
+[appliedStereotypes~="SEQ"] {
+	elementIcon: true;
+	/*fillColor:white;*/
+    displayIcon: true;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/SEQ.svg";
+	followSVGSymbol:true;
+    shapeVisibility: false;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: center;
+}
+
+[appliedStereotypes~="SEQ"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+
+[appliedStereotypes~="XOR"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="XOR"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="XOR"] {
+	elementIcon: false;
+	fillColor:white;
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: false;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/XOR.svg";
+	followSVGSymbol:true;
+    shapeVisibility: False;
+    display: none;
+    isNameWrap : true
+}
+
+[appliedStereotypes~="SPARE"] {
+	elementIcon: true;
+	/*fillColor:white;*/
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/SPARE.svg";
+	followSVGSymbol:true;
+    shapeVisibility: false;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: center;
+}
+
+[appliedStereotypes~="SPARE"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="FDEP"] {
+	elementIcon: true;
+	/*fillColor:white;*/
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/FDEP.svg";
+	followSVGSymbol:true;
+    shapeVisibility: false;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: center;
+}
+
+[appliedStereotypes~="FDEP"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="TransferIn"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="TransferIn"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="TransferIn"] {
+	elementIcon: false;
+	fillColor:white;
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: false;
+	svgFile: "plattform:/resource/com.nb.raaml.dft.uml.profiles/shapes/TransferIn.svg";
+	followSVGSymbol:true;
+    shapeVisibility: true;
+    isNameWrap : true
+				  
+}
+
+
+[appliedStereotypes~="IntermediateEvent"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="IntermediateEvent"]{
+	elementIcon: false;
+	fillColor:white;
+    displayIcon: false;
+	displayBorder: true;
+	display: none;
+	isNameWrap : true;
+}
+
+[appliedStereotypes~="TopEvent"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="TopEvent"]{
+	fillColor:#C7FEBE;
+	elementIcon: false;
+	isNameWrap : true;
+}
+
+[appliedStereotypes~="DFTree"]{
+	elementIcon: true;
+	/*fillColor:white;*/
+    displayIcon: true;
+	displayHeader:false;
+	displayBorder: true;
+	followSVGSymbol:true;
+    shapeVisibility: true;
+    display: none;
+    shapeDirection:2;
+    isNameWrap : true;
+    textAlignment: center;
+}
+
+[appliedStereotypes~="ExtendedDFTATree"]{
+	fillColor:#FCF6AE;
+	elementIcon: false;
+	isNameWrap : true;
+}
+

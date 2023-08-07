@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ConstraintBlocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ConstraintBlocks" xmlns:CoreProfile="https://www.omg.org/spec/RAAML/20211101/Core" xmlns:RAAMLMachineSafety="http:///schemas/RAAMLMachineSafety/_c-iigBzdEe6r5thBhq3Tlg/63" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ConstraintBlocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks https://www.omg.org/spec/RAAML/20211101/Core ../com.nb.raaml.basic.uml.profiles/210621_Zusammen/Zusammen/Core_Profile.profile.uml#_kwkbwBzaEe67vf0uWj5h3Q http:///schemas/RAAMLMachineSafety/_c-iigBzdEe6r5thBhq3Tlg/63 machinesafety.profile.uml#_c-opIBzdEe6r5thBhq3Tlg">
+  <uml:Model xmi:id="_m0cF0FLYEe2iAvsrSMkhBQ" name="machinesafety">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_yn1cYFU-Ee2INtI4TLOXjQ" annotatedElement="_yMaREKTREe2VW-Z-GG-QfQ">
+      <body>Seite 73 in ISO 12100</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Model" href="../com.nb.raaml.13849.uml.profiles/Blockdiagram.library.uml#_0H5wgOmcEeylJr0XrCAw1A"/>
+    <packagedElement xmi:type="uml:Model" href="../com.nb.raaml.dft.uml.profiles/dft3.library.uml#_GJyr4FucEe2tzfvHplFp2w"/>
+    <packagedElement xmi:type="uml:Model" href="../com.nb.raaml.machine.uml.profile/machinery.library.uml#_qgEgcJpdEe2Vr6in7vBRgg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uqoeoFLbEe2iAvsrSMkhBQ" name="MechanicalHazard">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TFX3AFVFEe2w9MOYmNroAA" general="_yMaREKTREe2VW-Z-GG-QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3aLosFLbEe2iAvsrSMkhBQ" name="ElectricalHazard">
+      <generalization xmi:type="uml:Generalization" xmi:id="_T1ivsFVFEe2w9MOYmNroAA" general="_yMaREKTREe2VW-Z-GG-QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8VFccFLbEe2iAvsrSMkhBQ" name="ThermalHazards">
+      <generalization xmi:type="uml:Generalization" xmi:id="_UuUKwFVFEe2w9MOYmNroAA" general="_yMaREKTREe2VW-Z-GG-QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ke5PwFLcEe2iAvsrSMkhBQ" name="HazardThroughNoise">
+      <generalization xmi:type="uml:Generalization" xmi:id="_RWXXgFVFEe2w9MOYmNroAA" general="_yMaREKTREe2VW-Z-GG-QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bONFsFLcEe2iAvsrSMkhBQ" name="HazardThroughVibration">
+      <generalization xmi:type="uml:Generalization" xmi:id="_duULoFVFEe2w9MOYmNroAA" general="_yMaREKTREe2VW-Z-GG-QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hE7BcFLcEe2iAvsrSMkhBQ" name="HazardThroughRadiation">
+      <generalization xmi:type="uml:Generalization" xmi:id="_eY9EEFVFEe2w9MOYmNroAA" general="_yMaREKTREe2VW-Z-GG-QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zz5CAFLcEe2iAvsrSMkhBQ" name="HazardThroughMaterialsAndSubstances">
+      <generalization xmi:type="uml:Generalization" xmi:id="_fKKekFVFEe2w9MOYmNroAA" general="_yMaREKTREe2VW-Z-GG-QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FT5VEFLdEe2iAvsrSMkhBQ" name="ErgonomicHazard">
+      <generalization xmi:type="uml:Generalization" xmi:id="_gGduwFVFEe2w9MOYmNroAA" general="_yMaREKTREe2VW-Z-GG-QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WstbAFLdEe2iAvsrSMkhBQ" name="OperatingEnvironmentHazard">
+      <generalization xmi:type="uml:Generalization" xmi:id="_g4clUFVFEe2w9MOYmNroAA" general="_yMaREKTREe2VW-Z-GG-QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e_UxcFLdEe2iAvsrSMkhBQ" name="CombinedHazard">
+      <generalization xmi:type="uml:Generalization" xmi:id="_hwp_sFVFEe2w9MOYmNroAA" general="_yMaREKTREe2VW-Z-GG-QfQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_RWA_8FVKEe2w9MOYmNroAA" name="PL">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_ZNWTIFVLEe2w9MOYmNroAA" annotatedElement="_RWA_8FVKEe2w9MOYmNroAA">
+        <body>discrete level used to specify the ability of safety-related parts of control systems to perform a safety&#xD;
+function under foreseeable conditions</body>
+      </ownedComment>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_c10EEFVKEe2w9MOYmNroAA" name="a"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_dlyIcFVKEe2w9MOYmNroAA" name="b"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_eLFN4FVKEe2w9MOYmNroAA" name="c"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_etjo0FVKEe2w9MOYmNroAA" name="d"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_faeZMFVKEe2w9MOYmNroAA" name="e"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_bGPucFVLEe2w9MOYmNroAA" name="category">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_fq6McFVLEe2w9MOYmNroAA" annotatedElement="_bGPucFVLEe2w9MOYmNroAA">
+        <body>classification of the subsystem in respect of the resistance to faults and the subsequent behaviour in&#xD;
+the fault condition which is achieved by the structural arrangement of the parts, fault detection and/or&#xD;
+by their reliability</body>
+      </ownedComment>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hR5_cFVLEe2w9MOYmNroAA" name="catB"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_kBl40FVLEe2w9MOYmNroAA" name="cat1"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_lsEdoFVLEe2w9MOYmNroAA" name="cat2"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_mnoG8FVLEe2w9MOYmNroAA" name="cat3"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_n3tOwFVLEe2w9MOYmNroAA" name="cat4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_6hsPYFVQEe2w9MOYmNroAA" name="Severity">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_l-XjULztEe2WyPxgwykMwQ" name="_"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_IFOs4FVREe2w9MOYmNroAA" name="S1"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_I_9PwFVREe2w9MOYmNroAA" name="S2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_PpqHoFVREe2w9MOYmNroAA" name="FrequencyOfExposure">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_oibbgLztEe2WyPxgwykMwQ" name="_"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_ShvIAFVREe2w9MOYmNroAA" name="F1"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_TOijoFVREe2w9MOYmNroAA" name="F2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_dpF28FVREe2w9MOYmNroAA" name="Avoidance">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_ptBmYLztEe2WyPxgwykMwQ" name="_"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_nLTNAFVREe2w9MOYmNroAA" name="P1"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_oLVtsFVREe2w9MOYmNroAA" name="P2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XMWagFkWEe2Oap7HS3R8Hg" name="MachineryEffect" visibility="public">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_xFK_4B2pEe6w9vbdAKpzLg" name="MachineryEffectHasSeverity" constrainedElement="_XMWagFkWEe2Oap7HS3R8Hg">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_xFK_4R2pEe6w9vbdAKpzLg">
+          <language>OCL</language>
+          <body>--MachineryEffect should have a severity&#xD;
+self.severity&lt;>null</body>
+        </specification>
+      </ownedRule>
+      <generalization xmi:type="uml:Generalization" xmi:id="_86VCwFkWEe2Oap7HS3R8Hg">
+        <general xmi:type="uml:Class" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1532697893611_386348_19642"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_is0iIFkYEe2Oap7HS3R8Hg" name="severity" visibility="public" type="_6hsPYFVQEe2w9MOYmNroAA" isUnique="false">
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1532698241398_520505_19820"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YGUBgJdVEe2oHdsvHtoD7w" name="premitigationSeverities" type="_6hsPYFVQEe2w9MOYmNroAA" isUnique="false">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tKwrsJdVEe2oHdsvHtoD7w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tLuVAJdVEe2oHdsvHtoD7w" value="*"/>
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1533567035987_692892_19523"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZJbmsFkgEe2Oap7HS3R8Hg" name="EffectThroughRadiation">
+      <generalization xmi:type="uml:Generalization" xmi:id="_KQoxAFkhEe2Oap7HS3R8Hg" general="_XMWagFkWEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZJcNwFkgEe2Oap7HS3R8Hg" name="ErgonomicEffect">
+      <generalization xmi:type="uml:Generalization" xmi:id="_6IfMQFkhEe2Oap7HS3R8Hg" general="_XMWagFkWEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZJc00FkgEe2Oap7HS3R8Hg" name="MechanicalEffect">
+      <generalization xmi:type="uml:Generalization" xmi:id="_G0ASEFkhEe2Oap7HS3R8Hg" general="_XMWagFkWEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZJdb4FkgEe2Oap7HS3R8Hg" name="EffectThroughMaterialsAndSubstances">
+      <generalization xmi:type="uml:Generalization" xmi:id="_5YjkIFkhEe2Oap7HS3R8Hg" general="_XMWagFkWEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZJdb4lkgEe2Oap7HS3R8Hg" name="OperatingEnvironmentEffect">
+      <generalization xmi:type="uml:Generalization" xmi:id="_7JNCYFkhEe2Oap7HS3R8Hg" general="_XMWagFkWEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZJeC8FkgEe2Oap7HS3R8Hg" name="EffectThroughVibration">
+      <generalization xmi:type="uml:Generalization" xmi:id="_JigfsFkhEe2Oap7HS3R8Hg" general="_XMWagFkWEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZJeqAFkgEe2Oap7HS3R8Hg" name="ThermalEffect">
+      <generalization xmi:type="uml:Generalization" xmi:id="_IL7HQFkhEe2Oap7HS3R8Hg" general="_XMWagFkWEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZJeqAlkgEe2Oap7HS3R8Hg" name="CombinedEffect">
+      <generalization xmi:type="uml:Generalization" xmi:id="_77xu0FkhEe2Oap7HS3R8Hg" general="_XMWagFkWEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZJeqBFkgEe2Oap7HS3R8Hg" name="ElectricalEffect">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HjM6YFkhEe2Oap7HS3R8Hg" general="_XMWagFkWEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZJfREFkgEe2Oap7HS3R8Hg" name="EffectThroughNoise">
+      <generalization xmi:type="uml:Generalization" xmi:id="_I9UvAFkhEe2Oap7HS3R8Hg" general="_XMWagFkWEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Z69C4FkjEe2Oap7HS3R8Hg" name="HazardousSituation">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_-ttkEB2nEe6w9vbdAKpzLg" name="HazardousSituationHasExposedActorHazardousEventAndAvoidance" constrainedElement="_Z69C4FkjEe2Oap7HS3R8Hg">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_-ttkER2nEe6w9vbdAKpzLg">
+          <language>OCL</language>
+          <body>--HazardousSituation should have an exposedActor, a hazardousEvent and an avoidance&#xD;
+self.attributes->select(a | a.name.startsWith('exposedActor'))->notEmpty()&#xD;
+and&#xD;
+self.hazardousEvent&lt;>null and self.avoidance&lt;>null</body>
+        </specification>
+      </ownedRule>
+      <generalization xmi:type="uml:Generalization" xmi:id="_iG04IFkjEe2Oap7HS3R8Hg">
+        <general xmi:type="uml:Class" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537729437929_750972_12332"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="_iqXqEFkjEe2Oap7HS3R8Hg">
+        <general xmi:type="uml:Class" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_19_0_2_30b0125_1567605657641_831831_104784"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tMsZUFkjEe2Oap7HS3R8Hg" name="avoidance" type="_dpF28FVREe2w9MOYmNroAA" isUnique="false" aggregation="composite">
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537730801572_112552_13476"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_q4K-AJdVEe2oHdsvHtoD7w" name="premitigationAvoidance" type="_dpF28FVREe2w9MOYmNroAA" isUnique="false">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_C8aIMJdYEe2oHdsvHtoD7w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_C9P1sJdYEe2oHdsvHtoD7w" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5vkngJrAEe2aXsP4Hx_uJQ" name="description">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lnkhEK2QEe2408a3PLTQBA" name="exposedActor" type="_qqREwK7WEe2Vuvj1NNwoqA" association="_lng2sK2QEe2408a3PLTQBA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lnkhEq2QEe2408a3PLTQBA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hgU687ktEe25jOaM2oMnaA" name="hazardousevent" type="_PB48sFklEe2Oap7HS3R8Hg" isUnique="false" aggregation="composite" association="_hgU68LktEe25jOaM2oMnaA">
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_r0dzMKckEe2gsN7xsTuauw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PB48sFklEe2Oap7HS3R8Hg" name="HazardousEvent">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_maxvMB2oEe6w9vbdAKpzLg" name="HazardousEventHasMachineContextCauseAndFrequencyOfExposure" constrainedElement="_PB48sFklEe2Oap7HS3R8Hg">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_maxvMR2oEe6w9vbdAKpzLg">
+          <language>OCL</language>
+          <body>--HazardousEvent should have a machinecontextcause and a frequencyOfExposure&#xD;
+self.attributes->select(a | a.name.startsWith('machinecontextcause'))->notEmpty()&#xD;
+and&#xD;
+self.frequencyOfExposure&lt;>null</body>
+        </specification>
+      </ownedRule>
+      <generalization xmi:type="uml:Generalization" xmi:id="_aQotEFklEe2Oap7HS3R8Hg">
+        <general xmi:type="uml:Class" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537730801362_861482_13475"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nxh7sKTTEe2VW-Z-GG-QfQ" name="frequencyOfExposure" type="_PpqHoFVREe2w9MOYmNroAA" isUnique="false">
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537730801572_112552_13476"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0HUs0K1cEe2Fu5bIjRvIQQ" name="operationmode" type="_TV_k8LwnEe2cV6n6JujL9A" association="_0HRpgK1cEe2Fu5bIjRvIQQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0HUs0a1cEe2Fu5bIjRvIQQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0HVT4K1cEe2Fu5bIjRvIQQ" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HjMDgrktEe25jOaM2oMnaA" name="machinecontextcause" type="_KQTYEGwgEe2Lac_cit9NLw" aggregation="composite" association="_FO5k8LtXEe2D9K8sx6_oMg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HjMqkbktEe25jOaM2oMnaA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WnB2gB2QEe6kWP7FP4boYw" name="betriebsmodus">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnCdkB2QEe6kWP7FP4boYw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnCdkR2QEe6kWP7FP4boYw" value="1"/>
+        <association xmi:type="uml:Association" href="../com.nb.raaml.4achsmachine/batteriezellenpruefmaschine.uml#_Wm-MIB2QEe6kWP7FP4boYw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MAGKMFkmEe2Oap7HS3R8Hg" name="Automatic">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lknQ0FknEe2Oap7HS3R8Hg" general="_PB48sFklEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Piw_sFkmEe2Oap7HS3R8Hg" name="Manuell">
+      <generalization xmi:type="uml:Generalization" xmi:id="_mQZYwFknEe2Oap7HS3R8Hg" general="_PB48sFklEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UzlZEFkmEe2Oap7HS3R8Hg" name="Maintenance">
+      <generalization xmi:type="uml:Generalization" xmi:id="_m9z4YFknEe2Oap7HS3R8Hg" general="_PB48sFklEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2ngKEFknEe2Oap7HS3R8Hg" name="MachineryRiskItem" visibility="public">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_fILysB2lEe6w9vbdAKpzLg" name="RiskItemHasHazardHazardousSituationAndMachineryEffect" constrainedElement="_2ngKEFknEe2Oap7HS3R8Hg">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_fILysR2lEe6w9vbdAKpzLg">
+          <language>OCL</language>
+          <body>--MachineryRiskItem should have a hazard, a hazardousSituation and a machineryEffect&#xD;
+self.hazard&lt;>null&#xD;
+and&#xD;
+self.attributes->select(a | a.name.startsWith('hazardousSituation'))->notEmpty()&#xD;
+and&#xD;
+self.attributes->select(b | b.name.startsWith('machineryEffect'))->notEmpty()</body>
+        </specification>
+      </ownedRule>
+      <generalization xmi:type="uml:Generalization" xmi:id="_cStLIFkoEe2Oap7HS3R8Hg">
+        <general xmi:type="uml:Class" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537816026475_379095_23108"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_v1rOQB2mEe6w9vbdAKpzLg" name="calculation" type="_imgmMN6YEe2u3tYQ_zwj3Q"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Et7SMFkoEe2Oap7HS3R8Hg" name="hazard" type="_yMaREKTREe2VW-Z-GG-QfQ" isUnique="false" aggregation="composite" association="_Et418FkoEe2Oap7HS3R8Hg">
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537816168474_333028_23331"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_g6engFkoEe2Oap7HS3R8Hg" name="pLr" type="_RWA_8FVKEe2w9MOYmNroAA" aggregation="composite" isDerived="true">
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537815812672_441109_22998"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_c0nI4lkpEe2Oap7HS3R8Hg" name="machineryeffect" type="_XMWagFkWEe2Oap7HS3R8Hg" isUnique="false" aggregation="composite" association="_c0mh0FkpEe2Oap7HS3R8Hg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c0nv8VkpEe2Oap7HS3R8Hg" value="*"/>
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/210621_Zusammen/Zusammen/GeneralRAAMLLib.uml#_18_5_3_f720368_1537816145884_222804_23273"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_u4uOkVkpEe2Oap7HS3R8Hg" name="hazardousSituation" type="_Z69C4FkjEe2Oap7HS3R8Hg" isUnique="false" aggregation="composite" association="_-DLlILtWEe2D9K8sx6_oMg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aY5u0Lk5Ee2m0tlvvZw6Yg" value="*"/>
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537816137984_26042_23234"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4RPbwHsYEe2gBMYZV8a2Lw" name="riskIndex" isUnique="false" aggregation="composite" isDerived="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537815812672_441109_22998"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0HdioH7sEe2TpaEo1-f45Q" name="previousRiskIndex" aggregation="composite" isDerived="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1dlBAH7sEe2TpaEo1-f45Q"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1eN6MH7sEe2TpaEo1-f45Q" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Et418FkoEe2Oap7HS3R8Hg" memberEnd="_Et7SMFkoEe2Oap7HS3R8Hg _Et75QlkoEe2Oap7HS3R8Hg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Et6EEFkoEe2Oap7HS3R8Hg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Et6EEVkoEe2Oap7HS3R8Hg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Et75QlkoEe2Oap7HS3R8Hg" type="_2ngKEFknEe2Oap7HS3R8Hg" association="_Et418FkoEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_c0mh0FkpEe2Oap7HS3R8Hg" memberEnd="_c0nI4lkpEe2Oap7HS3R8Hg _c0nv8lkpEe2Oap7HS3R8Hg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0nI4FkpEe2Oap7HS3R8Hg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0nI4VkpEe2Oap7HS3R8Hg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_c0nv8lkpEe2Oap7HS3R8Hg" type="_2ngKEFknEe2Oap7HS3R8Hg" association="_c0mh0FkpEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_SjoL0FkqEe2Oap7HS3R8Hg" memberEnd="_Sjoy4lkqEe2Oap7HS3R8Hg _Sjoy5VkqEe2Oap7HS3R8Hg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Sjoy4FkqEe2Oap7HS3R8Hg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Sjoy4VkqEe2Oap7HS3R8Hg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Sjoy5VkqEe2Oap7HS3R8Hg" name="accidentscenario" type="_KQTYEGwgEe2Lac_cit9NLw" association="_SjoL0FkqEe2Oap7HS3R8Hg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_mIxwQGwfEe2Lac_cit9NLw" name="Occurrence">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_sfjYYLztEe2WyPxgwykMwQ" name="_"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_mIxwQWwfEe2Lac_cit9NLw" name="O1"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_mIxwQmwfEe2Lac_cit9NLw" name="O2"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_u64fEGwfEe2Lac_cit9NLw" name="O3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KQTYEGwgEe2Lac_cit9NLw" name="MachineContextCause">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_fi_ikB2pEe6w9vbdAKpzLg" name="MachineContextCauseHasOccurenceAndLifePhase" constrainedElement="_KQTYEGwgEe2Lac_cit9NLw">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_fi_ikR2pEe6w9vbdAKpzLg">
+          <language>OCL</language>
+          <body>--MachineContextCause should have an occurrence and a lifePhase&#xD;
+self.occurence&lt;>null&#xD;
+and&#xD;
+self.attributes->select(a | a.name.startsWith('lifePhase'))->notEmpty()</body>
+        </specification>
+      </ownedRule>
+      <generalization xmi:type="uml:Generalization" xmi:id="_UBEukGwgEe2Lac_cit9NLw">
+        <general xmi:type="uml:Class" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1532698508263_912563_19981"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jcX-8GwgEe2Lac_cit9NLw" name="occurrence" type="_mIxwQGwfEe2Lac_cit9NLw" isUnique="false">
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1532698602720_51546_20148"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_AfQwUJdYEe2oHdsvHtoD7w" name="premitigationOccurrences" type="_mIxwQGwfEe2Lac_cit9NLw" isUnique="false">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BqWDYJdYEe2oHdsvHtoD7w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BrtVUJdYEe2oHdsvHtoD7w" value="*"/>
+        <redefinedProperty xmi:type="uml:Property" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1533567002346_836677_19512"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9_sY4JrAEe2aXsP4Hx_uJQ" name="description">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Sjoy4lkqEe2Oap7HS3R8Hg" name="lifePhase" type="_M8pUYJjUEe2gwoW1cvyv-w" aggregation="composite" association="_SjoL0FkqEe2Oap7HS3R8Hg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lf2ZsKTjEe2jweR1tyy9Aw" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_7ieFsGyjEe2Lac_cit9NLw" name="MeasureAgainstCCF">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_7ieFsWyjEe2Lac_cit9NLw" name="_1_SeparationSegregation__physical_separation_between_signal_paths__15P">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_Q2Bi4GykEe2Lac_cit9NLw" value="15"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_7ieFsmyjEe2Lac_cit9NLw" name="_2_Diversity__different_technologies_design_or_physical_principles__20P">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_V1z2oGykEe2Lac_cit9NLw" value="20"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_EIdZMGymEe2Lac_cit9NLw" name="_3_1_DesignApplicationExperience__Protection_against_overvoltage_overpressure_overcurrent_overtemperature__15P">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_KDkFsGymEe2Lac_cit9NLw" value="15"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_jv0UALzgEe2E2-6M4N7PHw" name="_3_2_DesignApplicationExperience__components_used_are_welltried__Not_for_Control__5P">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_jv0UAbzgEe2E2-6M4N7PHw" value="5"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_NwzMcGymEe2Lac_cit9NLw" name="_4_AssessmentAnalysis__For_each_part_of_safetyrelated_parts_of_control_system_a_FMEA_has_been_carried_out_to_avoid_CCF__Not_for_Control__5P">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_NwzMcWymEe2Lac_cit9NLw" value="5"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Slit0GymEe2Lac_cit9NLw" name="_5_Training__Training_of_designers_to_understand_the_causes_and_consequences_of_CCF__Not_for_Control__5P">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_Slit0WymEe2Lac_cit9NLw" value="5"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_W6k0YGymEe2Lac_cit9NLw" name="_6_1_Environmental__Prevention_of_EMI_to_protect_against_CCF_according_Standards__25P">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_W6k0YWymEe2Lac_cit9NLw" value="25"/>
+      </ownedLiteral>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_c9G-kGymEe2Lac_cit9NLw" name="_6_2_Environmental__Consideration_of_the_requirements_for_immunity_to_all_relevant_environmental_influences__10P">
+        <specification xmi:type="uml:LiteralInteger" xmi:id="_c9G-kWymEe2Lac_cit9NLw" value="10"/>
+      </ownedLiteral>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_WvzscHsYEe2gBMYZV8a2Lw" name="RiskIndex">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_WvzscXsYEe2gBMYZV8a2Lw" annotatedElement="_WvzscHsYEe2gBMYZV8a2Lw">
+        <body>discrete level used to specify the ability of safety-related parts of control systems to perform a safety&#xD;
+function under foreseeable conditions</body>
+      </ownedComment>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_WvzscnsYEe2gBMYZV8a2Lw" name="_1"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Wvzsc3sYEe2gBMYZV8a2Lw" name="_2"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_WvzsdHsYEe2gBMYZV8a2Lw" name="_3"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_WvzsdXsYEe2gBMYZV8a2Lw" name="_4"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_WvzsdnsYEe2gBMYZV8a2Lw" name="_5"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_wzAvoHsYEe2gBMYZV8a2Lw" name="_6"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_M8pUYJjUEe2gwoW1cvyv-w" name="LifePhase">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_M8pUY5jUEe2gwoW1cvyv-w" name="Transport"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_M8pUYZjUEe2gwoW1cvyv-w" name="Assembly"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_K1LicK0pEe2Fu5bIjRvIQQ" name="Installation"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_V8bjsK0pEe2Fu5bIjRvIQQ" name="SetUp"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_dTWG4K0pEe2Fu5bIjRvIQQ" name="Teaching"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_M8pUZZjUEe2gwoW1cvyv-w" name="Commissioning"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_M8pUZ5jUEe2gwoW1cvyv-w" name="Operation"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_M8pUbZjUEe2gwoW1cvyv-w" name="Maintenance"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_xO7rkK0pEe2Fu5bIjRvIQQ" name="Troubleshooting"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_M8pUa5jUEe2gwoW1cvyv-w" name="Cleaning"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_87GXwK0pEe2Fu5bIjRvIQQ" name="Decommissioning"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_M8pUb5jUEe2gwoW1cvyv-w" name="Disassembly"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_-7kw4JjUEe2gwoW1cvyv-w" name="Disposal"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yMaREKTREe2VW-Z-GG-QfQ" name="MachineHazard" isAbstract="true">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_88MIcB_eEe6b3d0yEBJE3A" name="MachineHazardHasHazardArea" constrainedElement="_yMaREKTREe2VW-Z-GG-QfQ">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_88MIcR_eEe6b3d0yEBJE3A">
+          <language>OCL</language>
+          <body>--MachineHazard should have a hazardArea&#xD;
+self.attributes->select(a | a.name.startsWith('hazardArea'))->notEmpty()</body>
+        </specification>
+      </ownedRule>
+      <generalization xmi:type="uml:Generalization" xmi:id="_IVrOQKTSEe2VW-Z-GG-QfQ">
+        <general xmi:type="uml:Class" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537815489665_967944_22796"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_V1RegLksEe25jOaM2oMnaA" name="hazardArea" association="_V1ObMLksEe25jOaM2oMnaA">
+        <type xmi:type="uml:Class" href="../com.nb.raaml.machine.uml.profile/machinery.library.uml#_y2mjMJqBEe2VWqEy3dOh_A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S04kwLkuEe25jOaM2oMnaA" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_22jfYLkyEe2eOsKHDS6L_g" name="OperationMode">
+      <generalization xmi:type="uml:Generalization" xmi:id="_hRWsYK1cEe2Fu5bIjRvIQQ">
+        <general xmi:type="uml:Class" href="../com.nb.raaml.basic.uml.profiles/RAAML.library.uml#_18_5_3_f720368_1537730801362_861482_13475"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_0HRpgK1cEe2Fu5bIjRvIQQ" memberEnd="_0HUs0K1cEe2Fu5bIjRvIQQ _0HVT4a1cEe2Fu5bIjRvIQQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0HTesK1cEe2Fu5bIjRvIQQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0HTesa1cEe2Fu5bIjRvIQQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_0HVT4a1cEe2Fu5bIjRvIQQ" type="_PB48sFklEe2Oap7HS3R8Hg" association="_0HRpgK1cEe2Fu5bIjRvIQQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_aT6bgK2QEe2408a3PLTQBA" name="ExposedActor"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lng2sK2QEe2408a3PLTQBA" memberEnd="_lnkhEK2QEe2408a3PLTQBA _lnkhE62QEe2408a3PLTQBA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lnjS8K2QEe2408a3PLTQBA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lnjS8a2QEe2408a3PLTQBA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lnkhE62QEe2408a3PLTQBA" name="hazardoussituation" type="_Z69C4FkjEe2Oap7HS3R8Hg" association="_lng2sK2QEe2408a3PLTQBA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_qqREwK7WEe2Vuvj1NNwoqA" name="ExposedActor">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TTqVQK7XEe2Vuvj1NNwoqA" general="_aT6bgK2QEe2408a3PLTQBA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_V1ObMLksEe25jOaM2oMnaA" memberEnd="_V1RegLksEe25jOaM2oMnaA _V1SsoLksEe25jOaM2oMnaA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V1QQYLksEe25jOaM2oMnaA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V1Q3cLksEe25jOaM2oMnaA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_V1SsoLksEe25jOaM2oMnaA" name="machinehazard" type="_yMaREKTREe2VW-Z-GG-QfQ" association="_V1ObMLksEe25jOaM2oMnaA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_hgU68LktEe25jOaM2oMnaA" memberEnd="_hgU687ktEe25jOaM2oMnaA _hgViArktEe25jOaM2oMnaA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hgU68bktEe25jOaM2oMnaA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hgU68rktEe25jOaM2oMnaA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_hgViArktEe25jOaM2oMnaA" type="_Z69C4FkjEe2Oap7HS3R8Hg" association="_hgU68LktEe25jOaM2oMnaA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-DLlILtWEe2D9K8sx6_oMg" memberEnd="_u4uOkVkpEe2Oap7HS3R8Hg _-DOBYLtWEe2D9K8sx6_oMg">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_-DOBYLtWEe2D9K8sx6_oMg" type="_2ngKEFknEe2Oap7HS3R8Hg" association="_-DLlILtWEe2D9K8sx6_oMg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_FO5k8LtXEe2D9K8sx6_oMg" memberEnd="_HjMDgrktEe25jOaM2oMnaA _FO8oQLtXEe2D9K8sx6_oMg">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_FO8oQLtXEe2D9K8sx6_oMg" type="_PB48sFklEe2Oap7HS3R8Hg" association="_FO5k8LtXEe2D9K8sx6_oMg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TV_k8LwnEe2cV6n6JujL9A" name="OperationMode">
+      <generalization xmi:type="uml:Generalization" xmi:id="_chaLoLwnEe2cV6n6JujL9A" general="_22jfYLkyEe2eOsKHDS6L_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_gZ92IN6YEe2u3tYQ_zwj3Q" name="ConstraintBlocks">
+      <packagedElement xmi:type="uml:Class" xmi:id="_imgmMN6YEe2u3tYQ_zwj3Q" name="riskIndexCalculation">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_DOA8gN6cEe2u3tYQ_zwj3Q" name="riskIndexCalc">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_c4q80N6cEe2u3tYQ_zwj3Q">
+            <language>OCL</language>
+            <body>context MachineryRiskItem&#xD;
+inv RiskIndexCalculation:&#xD;
+  --Bestimme die höchsten Werte für die verschiedenen Risikodimensionen&#xD;
+  let avoidanceValues : OrderedSet(String) = self.hazardousSituation->collect(avoidance)->asOrderedSet()&#xD;
+  let maxAvoidance : Real = if avoidanceValues->indexOf(avoidanceValues->last()) = 'P1' then 1.0 else 2.0 endif&#xD;
+  let frequencyValues : OrderedSet(String) = self.hazardousSituation->closure(hs | hs.hazardousEvent)->collect(frequencyOfExposure)->asOrderedSet()&#xD;
+  let maxFrequency : Real = if frequencyValues->indexOf(frequencyValues->last()) = 'F1' then 1.0 else 2.0 endif&#xD;
+  let occurenceValues : OrderedSet(String) = self.hazardousSituation->closure(hs | hs.hazardousEvent)->closure(mc | mc. machineContextCause)->collect(occurence)->asOrderedSet()&#xD;
+  let maxOccurence : Real = if occurenceValues->indexOf(occurenceValues->last()) = 'O1' then 1.0 else 2.0 endif&#xD;
+  let severityValues : OrderedSet(String) = self.machineryEffect->collect(severity)->asOrderedSet()&#xD;
+  let maxSeverity : Real = if severityValues->indexOf(severityValues->last()) = 'S1' then 1.0 else if severityValues->indexOf(severityValues->last()) = 'S2' then 1.5 else 0.0 endif&#xD;
+&#xD;
+  -- Berechne den neuen Risikoindex (RPZ)&#xD;
+  let newRiskIndex : Real = maxSeverity * ( maxFrequency + maxOccurence + maxAvoidance )&#xD;
+&#xD;
+  in&#xD;
+    --Wenn der Risikoindex noch nicht gesetzt wurde, setze ihn und berechne pLr&#xD;
+    if self.riskIndex = null then&#xD;
+      self.riskIndex = newRiskIndex&#xD;
+      if newRiskIndex &lt; 4.5 then&#xD;
+        self.pLr = 'a'&#xD;
+      else if newRiskIndex >= 4.5 and newRiskIndex &lt; 6 then&#xD;
+        self.pLr = 'b'&#xD;
+      else if newRiskIndex >= 6 and newRiskIndex &lt; 7.5 then&#xD;
+        self.pLr = 'c'&#xD;
+      else if newRiskIndex >= 7.5 and newRiskIndex &lt; 9 then&#xD;
+        self.pLr = 'd'&#xD;
+      else&#xD;
+        self.pLr = 'e'&#xD;
+      endif&#xD;
+    --Wenn der Risikoindex bereits gesetzt wurde, setze den vorherigen Risikoindex und den neuen Risikoindex und füge den vorherigen Risikoindex zur Liste der vorherigen Risikoindizes hinzu&#xD;
+    else&#xD;
+      let lastRiskIndex : Real = self.riskIndex&#xD;
+      in&#xD;
+        self.riskIndex = newRiskIndex&#xD;
+        self.previousRiskIndex->append(lastRiskIndex)&#xD;
+    endif&#xD;
+</body>
+          </specification>
+        </ownedRule>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_a1z00FVCEe2INtI4TLOXjQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U4v3IB2NEe6kWP7FP4boYw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U4v3IR2NEe6kWP7FP4boYw" key="Version" value="0.1.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U4v3Ih2NEe6kWP7FP4boYw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U4v3Ix2NEe6kWP7FP4boYw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U4v3JB2NEe6kWP7FP4boYw" key="Date" value="2023-07-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U4v3JR2NEe6kWP7FP4boYw" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a2GvwFVCEe2INtI4TLOXjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../com.nb.raaml.basic.uml.profiles/210621_Zusammen/Zusammen/General_Concepts_Profile.profile.uml#_kwmQ8BzaEe67vf0uWj5h3Q"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../com.nb.raaml.basic.uml.profiles/210621_Zusammen/Zusammen/General_Concepts_Profile.profile.uml#_18_5_3_f720368_1537716950274_148762_15249"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_a2HW0FVCEe2INtI4TLOXjQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U5RbkB2NEe6kWP7FP4boYw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U5RbkR2NEe6kWP7FP4boYw" key="Version" value="0.1.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U5Rbkh2NEe6kWP7FP4boYw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U5Rbkx2NEe6kWP7FP4boYw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U5RblB2NEe6kWP7FP4boYw" key="Date" value="2023-07-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U5RblR2NEe6kWP7FP4boYw" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a2H94FVCEe2INtI4TLOXjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../com.nb.raaml.basic.uml.profiles/210621_Zusammen/Zusammen/Core_Profile.profile.uml#_kwkbwBzaEe67vf0uWj5h3Q"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../com.nb.raaml.basic.uml.profiles/210621_Zusammen/Zusammen/Core_Profile.profile.uml#_18_5_3_f720368_1544384771830_305848_23660"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ri6mMFweEe2WMp-lEcq6gg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ri7NQFweEe2WMp-lEcq6gg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ri7NQVweEe2WMp-lEcq6gg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ri7NQlweEe2WMp-lEcq6gg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ri7NQ1weEe2WMp-lEcq6gg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ri70UFweEe2WMp-lEcq6gg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ri70UVweEe2WMp-lEcq6gg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ri70UlweEe2WMp-lEcq6gg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ri8bYFweEe2WMp-lEcq6gg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ri8bYVweEe2WMp-lEcq6gg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ri9CcFweEe2WMp-lEcq6gg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ri9CcVweEe2WMp-lEcq6gg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ri9pgFweEe2WMp-lEcq6gg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ri9pgVweEe2WMp-lEcq6gg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ri9pglweEe2WMp-lEcq6gg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ri-QkFweEe2WMp-lEcq6gg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ri-QkVweEe2WMp-lEcq6gg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ri-3oFweEe2WMp-lEcq6gg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bsKIUKcjEe2gsN7xsTuauw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U5znEB2NEe6kWP7FP4boYw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U5znER2NEe6kWP7FP4boYw" key="Version" value="0.1.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U5znEh2NEe6kWP7FP4boYw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U5znEx2NEe6kWP7FP4boYw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U5znFB2NEe6kWP7FP4boYw" key="Date" value="2023-07-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U5znFR2NEe6kWP7FP4boYw" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bsL9gKcjEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../com.nb.raaml.13849.uml.profiles/Blockdiagram.profile.uml#_V0LYIBzeEe6r5thBhq3Tlg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../com.nb.raaml.13849.uml.profiles/Blockdiagram.profile.uml#_rU9r4OAzEeypl8m2XP0XYQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gcwQkLwLEe2Lf_ahWaVAJw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcz68LwLEe2Lf_ahWaVAJw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_miI-cB2HEe6ClOa_XyWbFg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_miT9kB2HEe6ClOa_XyWbFg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="machinesafety.profile.uml#_c-opIBzdEe6r5thBhq3Tlg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="machinesafety.profile.uml#_hT0koFLSEe2iAvsrSMkhBQ"/>
+    </profileApplication>
+  </uml:Model>
+  <CoreProfile:Situation xmi:id="_7bDBUFkWEe2Oap7HS3R8Hg" base_Class="_XMWagFkWEe2Oap7HS3R8Hg" base_Class_Situation="_XMWagFkWEe2Oap7HS3R8Hg"/>
+  <CoreProfile:Situation xmi:id="_ZJsscFkgEe2Oap7HS3R8Hg" base_Class="_ZJbmsFkgEe2Oap7HS3R8Hg" base_Class_Situation="_ZJbmsFkgEe2Oap7HS3R8Hg"/>
+  <CoreProfile:Situation xmi:id="_ZJ6H0FkgEe2Oap7HS3R8Hg" base_Class="_ZJeC8FkgEe2Oap7HS3R8Hg" base_Class_Situation="_ZJeC8FkgEe2Oap7HS3R8Hg"/>
+  <CoreProfile:Situation xmi:id="_ZJ6u4FkgEe2Oap7HS3R8Hg" base_Class="_ZJfREFkgEe2Oap7HS3R8Hg" base_Class_Situation="_ZJfREFkgEe2Oap7HS3R8Hg"/>
+  <CoreProfile:Situation xmi:id="_ZJ6u4VkgEe2Oap7HS3R8Hg" base_Class="_ZJdb4FkgEe2Oap7HS3R8Hg" base_Class_Situation="_ZJdb4FkgEe2Oap7HS3R8Hg"/>
+  <CoreProfile:Situation xmi:id="_ZJ7V8FkgEe2Oap7HS3R8Hg" base_Class="_ZJeqAlkgEe2Oap7HS3R8Hg" base_Class_Situation="_ZJeqAlkgEe2Oap7HS3R8Hg"/>
+  <CoreProfile:Situation xmi:id="_ZJ7V8VkgEe2Oap7HS3R8Hg" base_Class="_ZJc00FkgEe2Oap7HS3R8Hg" base_Class_Situation="_ZJc00FkgEe2Oap7HS3R8Hg"/>
+  <CoreProfile:Situation xmi:id="_ZJ79AFkgEe2Oap7HS3R8Hg" base_Class="_ZJcNwFkgEe2Oap7HS3R8Hg" base_Class_Situation="_ZJcNwFkgEe2Oap7HS3R8Hg"/>
+  <CoreProfile:Situation xmi:id="_ZJ79AVkgEe2Oap7HS3R8Hg" base_Class="_ZJeqBFkgEe2Oap7HS3R8Hg" base_Class_Situation="_ZJeqBFkgEe2Oap7HS3R8Hg"/>
+  <CoreProfile:Situation xmi:id="_ZJ8kEFkgEe2Oap7HS3R8Hg" base_Class="_ZJdb4lkgEe2Oap7HS3R8Hg" base_Class_Situation="_ZJdb4lkgEe2Oap7HS3R8Hg"/>
+  <CoreProfile:Situation xmi:id="_ZJ9LIFkgEe2Oap7HS3R8Hg" base_Class="_ZJeqAFkgEe2Oap7HS3R8Hg" base_Class_Situation="_ZJeqAFkgEe2Oap7HS3R8Hg"/>
+  <Blocks:ValueType xmi:id="_HWVRYKHCEe2ysd6DqFvWdg" base_DataType="_RWA_8FVKEe2w9MOYmNroAA"/>
+  <Blocks:ValueType xmi:id="_SiqzAFweEe2WMp-lEcq6gg" base_DataType="_RWA_8FVKEe2w9MOYmNroAA"/>
+  <CoreProfile:Situation xmi:id="_QA758GwgEe2Lac_cit9NLw" base_Class="_KQTYEGwgEe2Lac_cit9NLw" base_Class_Situation="_KQTYEGwgEe2Lac_cit9NLw"/>
+  <Blocks:ValueType xmi:id="_HWiFsKHCEe2ysd6DqFvWdg" base_DataType="_bGPucFVLEe2w9MOYmNroAA"/>
+  <Blocks:ValueType xmi:id="_2Yp-IGyhEe2Lac_cit9NLw" base_DataType="_bGPucFVLEe2w9MOYmNroAA"/>
+  <Blocks:ValueType xmi:id="_HWtr4KHCEe2ysd6DqFvWdg" base_DataType="_6hsPYFVQEe2w9MOYmNroAA"/>
+  <Blocks:ValueType xmi:id="_4MWJUGyhEe2Lac_cit9NLw" base_DataType="_6hsPYFVQEe2w9MOYmNroAA"/>
+  <Blocks:ValueType xmi:id="_HW3c4KHCEe2ysd6DqFvWdg" base_DataType="_PpqHoFVREe2w9MOYmNroAA"/>
+  <Blocks:ValueType xmi:id="_5OKysGyhEe2Lac_cit9NLw" base_DataType="_PpqHoFVREe2w9MOYmNroAA"/>
+  <Blocks:ValueType xmi:id="_HXB08KHCEe2ysd6DqFvWdg" base_DataType="_dpF28FVREe2w9MOYmNroAA"/>
+  <Blocks:ValueType xmi:id="_6c3acGyhEe2Lac_cit9NLw" base_DataType="_dpF28FVREe2w9MOYmNroAA"/>
+  <Blocks:ValueType xmi:id="_HXJwwKHCEe2ysd6DqFvWdg" base_DataType="_mIxwQGwfEe2Lac_cit9NLw"/>
+  <Blocks:ValueType xmi:id="_7bkeYGyhEe2Lac_cit9NLw" base_DataType="_mIxwQGwfEe2Lac_cit9NLw"/>
+  <Blocks:ValueType xmi:id="_HXQecKHCEe2ysd6DqFvWdg" base_DataType="_7ieFsGyjEe2Lac_cit9NLw"/>
+  <Blocks:ValueType xmi:id="_7ihwEGyjEe2Lac_cit9NLw" base_DataType="_7ieFsGyjEe2Lac_cit9NLw"/>
+  <Blocks:ValueType xmi:id="_HXWlEKHCEe2ysd6DqFvWdg" base_DataType="_WvzscHsYEe2gBMYZV8a2Lw"/>
+  <Blocks:ValueType xmi:id="_Wv06mHsYEe2gBMYZV8a2Lw" base_DataType="_WvzscHsYEe2gBMYZV8a2Lw"/>
+  <Blocks:ValueType xmi:id="_HXcrsKHCEe2ysd6DqFvWdg" base_DataType="_M8pUYJjUEe2gwoW1cvyv-w"/>
+  <Blocks:ValueType xmi:id="_M86aIJjUEe2gwoW1cvyv-w" base_DataType="_M8pUYJjUEe2gwoW1cvyv-w"/>
+  <CoreProfile:Situation xmi:id="_3Qi5UKTREe2VW-Z-GG-QfQ" base_Class="_yMaREKTREe2VW-Z-GG-QfQ" base_Class_Situation="_yMaREKTREe2VW-Z-GG-QfQ"/>
+  <CoreProfile:Situation xmi:id="_XKOocLjuEe2-JKQrHJMHHg" base_Class="_uqoeoFLbEe2iAvsrSMkhBQ" base_Class_Situation="_uqoeoFLbEe2iAvsrSMkhBQ"/>
+  <CoreProfile:Situation xmi:id="_Yi65sLjuEe2-JKQrHJMHHg" base_Class="_3aLosFLbEe2iAvsrSMkhBQ" base_Class_Situation="_3aLosFLbEe2iAvsrSMkhBQ"/>
+  <CoreProfile:Situation xmi:id="_a-tmsLjuEe2-JKQrHJMHHg" base_Class="_8VFccFLbEe2iAvsrSMkhBQ" base_Class_Situation="_8VFccFLbEe2iAvsrSMkhBQ"/>
+  <CoreProfile:Situation xmi:id="_cmUdsLjuEe2-JKQrHJMHHg" base_Class="_Ke5PwFLcEe2iAvsrSMkhBQ" base_Class_Situation="_Ke5PwFLcEe2iAvsrSMkhBQ"/>
+  <CoreProfile:Situation xmi:id="_eQQP8LjuEe2-JKQrHJMHHg" base_Class="_bONFsFLcEe2iAvsrSMkhBQ" base_Class_Situation="_bONFsFLcEe2iAvsrSMkhBQ"/>
+  <CoreProfile:Situation xmi:id="_gPXoALjuEe2-JKQrHJMHHg" base_Class="_hE7BcFLcEe2iAvsrSMkhBQ" base_Class_Situation="_hE7BcFLcEe2iAvsrSMkhBQ"/>
+  <CoreProfile:Situation xmi:id="_iAzwcLjuEe2-JKQrHJMHHg" base_Class="_zz5CAFLcEe2iAvsrSMkhBQ" base_Class_Situation="_zz5CAFLcEe2iAvsrSMkhBQ"/>
+  <CoreProfile:Situation xmi:id="_jzyJ8LjuEe2-JKQrHJMHHg" base_Class="_FT5VEFLdEe2iAvsrSMkhBQ" base_Class_Situation="_FT5VEFLdEe2iAvsrSMkhBQ"/>
+  <CoreProfile:Situation xmi:id="_lHOHwLjuEe2-JKQrHJMHHg" base_Class="_WstbAFLdEe2iAvsrSMkhBQ" base_Class_Situation="_WstbAFLdEe2iAvsrSMkhBQ"/>
+  <CoreProfile:Situation xmi:id="_msZV0LjuEe2-JKQrHJMHHg" base_Class="_e_UxcFLdEe2iAvsrSMkhBQ" base_Class_Situation="_e_UxcFLdEe2iAvsrSMkhBQ"/>
+  <standard:ModelLibrary xmi:id="_hGHWoLwLEe2Lf_ahWaVAJw" base_Package="_m0cF0FLYEe2iAvsrSMkhBQ"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_imuBkN6YEe2u3tYQ_zwj3Q" base_Class="_imgmMN6YEe2u3tYQ_zwj3Q"/>
+  <RAAMLMachineSafety:ExposedActor xmi:id="_3rIFsP7oEe2IMbbpBX2biQ" base_Actor="_aT6bgK2QEe2408a3PLTQBA"/>
+  <RAAMLMachineSafety:HazardousSituation xmi:id="_eLgxgP_JEe26h_tg_WxHkQ" base_Class="_Z69C4FkjEe2Oap7HS3R8Hg" base_Class_Situation="_Z69C4FkjEe2Oap7HS3R8Hg"/>
+  <RAAMLMachineSafety:HazardousEvent xmi:id="_g9ETIP_JEe26h_tg_WxHkQ" base_Class="_PB48sFklEe2Oap7HS3R8Hg" base_Class_Situation="_PB48sFklEe2Oap7HS3R8Hg"/>
+  <RAAMLMachineSafety:OperationMode xmi:id="_jOxQAP_JEe26h_tg_WxHkQ" base_Class="_MAGKMFkmEe2Oap7HS3R8Hg"/>
+  <RAAMLMachineSafety:OperationMode xmi:id="_kT2BsP_JEe26h_tg_WxHkQ" base_Class="_Piw_sFkmEe2Oap7HS3R8Hg"/>
+  <RAAMLMachineSafety:OperationMode xmi:id="_lWMPgP_JEe26h_tg_WxHkQ" base_Class="_UzlZEFkmEe2Oap7HS3R8Hg"/>
+  <RAAMLMachineSafety:MachineryRiskItem xmi:id="_m1jwgP_JEe26h_tg_WxHkQ" base_Class="_2ngKEFknEe2Oap7HS3R8Hg"/>
+  <RAAMLMachineSafety:OperationMode xmi:id="_pGTrIP_JEe26h_tg_WxHkQ" base_UseCase="_22jfYLkyEe2eOsKHDS6L_g"/>
+  <RAAMLMachineSafety:ExposedActor xmi:id="_qoxjcP_JEe26h_tg_WxHkQ" base_Class="_qqREwK7WEe2Vuvj1NNwoqA"/>
+  <RAAMLMachineSafety:OperationMode xmi:id="_r71t0P_JEe26h_tg_WxHkQ" base_Class="_TV_k8LwnEe2cV6n6JujL9A"/>
+</xmi:XMI>

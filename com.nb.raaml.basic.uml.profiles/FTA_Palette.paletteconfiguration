@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paletteconfiguration:PaletteConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" id="FTA Palette" label="FTA_Palette">
+  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="EnBe_Nr1" label="FTA">
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360012438_1624360308341" label="AND (AND (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_oyv2IdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_oyv2ItNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_oyv2I9NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_oywdMNNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_oywdMdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360039810_1624360315716" label="BasicEvent (BasicEvent (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_p4_sgdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_p4_sgtNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_p4_sg9NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_p4_shNNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_p4_shdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360041719_1624360329765" label="ConditionalEvent (ConditionalEvent (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_r-_IodNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_r-_IotNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_r-_Io9NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_r-_IpNNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_r-_IpdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360043416_1624360340723" label="DormantEvent (DormantEvent (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_tnewcdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_tnewctNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_tnewc9NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_tnewdNNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_tnewddNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360046261_1624360354986" label="HouseEvent (HouseEvent (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_vvgM4NNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_vvgM4dNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_vvgM4tNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_vvgM49NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_vvgM5NNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360023825_1624360386069" label="INHIBIT (INHIBIT (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_0X7wkdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_0X7wktNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_0X7wk9NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_0X7wlNNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_0X7wldNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360049525_1624360398403" label="IntermediateEvent (IntermediateEvent (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_2Nj1cdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_2Nj1ctNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_2Nj1c9NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_2Nj1dNNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_2Nj1ddNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360025735_1624360407482" label="MAJORITY_VOTE (MAJORITY_VOTE (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_3kIm0dNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_3kJN4NNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_3kJN4dNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_3kJN4tNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_3kJN49NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360027173_1624360413338" label="NOT (NOT (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_4b-00dNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_4b-00tNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_4b_b4NNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_4b_b4dNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_4b_b4tNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360029233_1624360423951" label="OR (OR (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_6BMfIdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_6BMfItNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_6BMfI9NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_6BMfJNNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_6BMfJdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360030810_1624360434786" label="SEQ (SEQ (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_7oiQYdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_7oiQYtNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_7oiQY9NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_7oiQZNNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_7oiQZdNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360056189_1624360447274" label="TopEvent (TopEvent (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_9foU4dNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_9foU4tNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_9foU49NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_9foU5NNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_9fo78NNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360034487_1624360458970" label="XOR (XOR (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#__PLm8dNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#__PLm8tNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#__PLm89NKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#__PLm9NNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#__PLm9dNKEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.sysML.palette.bdd.Block_1624360062928_1624360466156" label="ZeroEvent (ZeroEvent (Block))" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.sysml16.edit" iconPath="/icons/full/obj16/Block.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_ATs_AdNLEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_ATs_AtNLEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_ATs_A9NLEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_ATs_BNNLEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/C:/Users/Boyaci/Documents/GitHub/RAAML_Basics/workspace-raaml/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/FTA%20Palette_UI.elementtypesconfigurations#_ATs_BdNLEeuWzpSmbGWKrw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+</paletteconfiguration:PaletteConfiguration>

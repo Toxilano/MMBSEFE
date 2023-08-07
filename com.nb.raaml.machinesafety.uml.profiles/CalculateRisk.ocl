@@ -1,0 +1,42 @@
+import 'machinesafety.library.uml'
+
+
+context MachineryRiskItem
+inv RiskIndexCalculation:
+  --Bestimme die höchsten Werte für die verschiedenen Risikodimensionen
+  let avoidanceValues : OrderedSet(String) = self.hazardousSituation->collect(avoidance)->asOrderedSet()
+  let maxAvoidance : Real = if avoidanceValues->indexOf(avoidanceValues->last()) = 'P1' then 1.0 else 2.0 endif
+  let frequencyValues : OrderedSet(String) = self.hazardousSituation->closure(hs | hs.hazardousEvent)->collect(frequencyOfExposure)->asOrderedSet()
+  let maxFrequency : Real = if frequencyValues->indexOf(frequencyValues->last()) = 'F1' then 1.0 else 2.0 endif
+  let occurenceValues : OrderedSet(String) = self.hazardousSituation->closure(hs | hs.hazardousEvent)->closure(mc | mc. machineContextCause)->collect(occurence)->asOrderedSet()
+  let maxOccurence : Real = if occurenceValues->indexOf(occurenceValues->last()) = 'O1' then 1.0 else 2.0 endif
+  let severityValues : OrderedSet(String) = self.machineryEffect->collect(severity)->asOrderedSet()
+  let maxSeverity : Real = if severityValues->indexOf(severityValues->last()) = 'S1' then 1.0 else if severityValues->indexOf(severityValues->last()) = 'S2' then 1.5 else 0.0 endif
+
+  -- Berechne den neuen Risikoindex (RPZ)
+  let newRiskIndex : Real = maxSeverity * ( maxFrequency + maxOccurence + maxAvoidance )
+
+  in
+    --Wenn der Risikoindex noch nicht gesetzt wurde, setze ihn und berechne pLr
+    if self.riskIndex = null then
+      self.riskIndex = newRiskIndex
+      if newRiskIndex < 4.5 then
+        self.pLr = 'a'
+      else if newRiskIndex >= 4.5 and newRiskIndex < 6 then
+        self.pLr = 'b'
+      else if newRiskIndex >= 6 and newRiskIndex < 7.5 then
+        self.pLr = 'c'
+      else if newRiskIndex >= 7.5 and newRiskIndex < 9 then
+        self.pLr = 'd'
+      else
+        self.pLr = 'e'
+      endif
+    --Wenn der Risikoindex bereits gesetzt wurde, setze den vorherigen Risikoindex und den neuen Risikoindex und füge den vorherigen Risikoindex zur Liste der vorherigen Risikoindizes hinzu
+    else
+      let lastRiskIndex : Real = self.riskIndex
+      in
+        self.riskIndex = newRiskIndex
+        self.previousRiskIndex->append(lastRiskIndex)
+    endif
+
+endpackage

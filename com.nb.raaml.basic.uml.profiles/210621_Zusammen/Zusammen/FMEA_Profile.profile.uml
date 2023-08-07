@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_19_0_8760274_1528900581823_611309_25377" name="FMEA Profile" visibility="public" URI="https://www.omg.org/spec/RAAML/20211101/FMEA" metaclassReference="_CVnu8KcEEe2l2tLIbMY-fg" metamodelReference="_19_0_8760274_1528900581825_656944_25378">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__cj6UKcHEe23pfhfsJpLCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_kwnfEBzaEe67vf0uWj5h3Q" name="FMEAProfile" nsURI="https://www.omg.org/spec/RAAML/20211101/FMEA" nsPrefix="FMEAProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kwnfERzaEe67vf0uWj5h3Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kwnfEhzaEe67vf0uWj5h3Q" key="originalName" value="FMEA Profile"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kwnfExzaEe67vf0uWj5h3Q" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kwnfFBzaEe67vf0uWj5h3Q" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kwnfFRzaEe67vf0uWj5h3Q" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kw82SBzaEe67vf0uWj5h3Q" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kw82SRzaEe67vf0uWj5h3Q" key="Version" value="0.1.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kw82ShzaEe67vf0uWj5h3Q" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kw82SxzaEe67vf0uWj5h3Q" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kw82TBzaEe67vf0uWj5h3Q" key="Date" value="2023-07-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kw82TRzaEe67vf0uWj5h3Q" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_kwnfFhzaEe67vf0uWj5h3Q" name="FMEAItem">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kwnfFxzaEe67vf0uWj5h3Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_18_5_3_f720368_1524487928810_429098_15835"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_kwnfGBzaEe67vf0uWj5h3Q" name="FMEAItemIsAbstractFMEAItem">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kwnfGRzaEe67vf0uWj5h3Q" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kwnfGhzaEe67vf0uWj5h3Q" key="body" value="-- FMEAItem stereotype can only be applied on any class, specialized from AbstractFMEAItem from FMEA Library&#xA;self.base_Class->asSet()->closure(general).name->includes('AbstractFMEAItem')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_kwnfHBzaEe67vf0uWj5h3Q" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kwnfHRzaEe67vf0uWj5h3Q" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kwnfHhzaEe67vf0uWj5h3Q" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_kwnfIBzaEe67vf0uWj5h3Q" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kwnfIRzaEe67vf0uWj5h3Q" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kwnfIhzaEe67vf0uWj5h3Q" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_kwnfIxzaEe67vf0uWj5h3Q">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_kwnfJBzaEe67vf0uWj5h3Q">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_kwnfJRzaEe67vf0uWj5h3Q">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_kwnfJhzaEe67vf0uWj5h3Q" name="base_Class_FMEAProfile" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kwnfJxzaEe67vf0uWj5h3Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kwnfKBzaEe67vf0uWj5h3Q" key="originalName" value="base_Class_FMEA Profile"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_r43_YBzTEe6qS9EeOpfUtA" name="FMEAProfile" nsURI="https://www.omg.org/spec/RAAML/20211101/FMEA" nsPrefix="FMEAProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r43_YRzTEe6qS9EeOpfUtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r43_YhzTEe6qS9EeOpfUtA" key="originalName" value="FMEA Profile"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r43_YxzTEe6qS9EeOpfUtA" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r43_ZBzTEe6qS9EeOpfUtA" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r43_ZRzTEe6qS9EeOpfUtA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r5K6UhzTEe6qS9EeOpfUtA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r5K6UxzTEe6qS9EeOpfUtA" key="Version" value="0.1.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r5K6VBzTEe6qS9EeOpfUtA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r5K6VRzTEe6qS9EeOpfUtA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r5K6VhzTEe6qS9EeOpfUtA" key="Date" value="2023-07-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r5K6VxzTEe6qS9EeOpfUtA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_r43_ZhzTEe6qS9EeOpfUtA" name="FMEAItem">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r43_ZxzTEe6qS9EeOpfUtA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_18_5_3_f720368_1524487928810_429098_15835"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_r43_aBzTEe6qS9EeOpfUtA" name="FMEAItemIsAbstractFMEAItem">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r43_aRzTEe6qS9EeOpfUtA" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r43_ahzTEe6qS9EeOpfUtA" key="body" value="-- FMEAItem stereotype can only be applied on any class, specialized from AbstractFMEAItem from FMEA Library&#xA;self.base_Class->asSet()->closure(general).name->includes('AbstractFMEAItem')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_r43_bBzTEe6qS9EeOpfUtA" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r43_bRzTEe6qS9EeOpfUtA" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r43_bhzTEe6qS9EeOpfUtA" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_r43_cBzTEe6qS9EeOpfUtA" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r43_cRzTEe6qS9EeOpfUtA" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r43_chzTEe6qS9EeOpfUtA" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_r43_cxzTEe6qS9EeOpfUtA">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_r43_dBzTEe6qS9EeOpfUtA">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_r43_dRzTEe6qS9EeOpfUtA">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_r43_dhzTEe6qS9EeOpfUtA" name="base_Class_FMEAProfile" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r43_dxzTEe6qS9EeOpfUtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r43_eBzTEe6qS9EeOpfUtA" key="originalName" value="base_Class_FMEA Profile"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_f28vUBy3Ee6pWr77dJERSA" name="FMEAProfile" nsURI="https://www.omg.org/spec/RAAML/20211101/FMEA" nsPrefix="FMEAProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f2_yoBy3Ee6pWr77dJERSA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f2_yoRy3Ee6pWr77dJERSA" key="originalName" value="FMEA Profile"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f2_yohy3Ee6pWr77dJERSA" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f2_yoxy3Ee6pWr77dJERSA" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f2_ypBy3Ee6pWr77dJERSA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f3VJ0hy3Ee6pWr77dJERSA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f3VJ0xy3Ee6pWr77dJERSA" key="Version" value="0.1.0"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f3VJ1By3Ee6pWr77dJERSA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f3VJ1Ry3Ee6pWr77dJERSA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f3VJ1hy3Ee6pWr77dJERSA" key="Date" value="2023-07-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f3VJ1xy3Ee6pWr77dJERSA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_f2_ypRy3Ee6pWr77dJERSA" name="FMEAItem">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f2_yphy3Ee6pWr77dJERSA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_18_5_3_f720368_1524487928810_429098_15835"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_f2_ypxy3Ee6pWr77dJERSA" name="FMEAItemIsAbstractFMEAItem">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f2_yqBy3Ee6pWr77dJERSA" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f2_yqRy3Ee6pWr77dJERSA" key="body" value="-- FMEAItem stereotype can only be applied on any class, specialized from AbstractFMEAItem from FMEA Library&#xA;self.base_Class->asSet()->closure(general).name->includes('AbstractFMEAItem')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_f2_yqxy3Ee6pWr77dJERSA" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f2_yrBy3Ee6pWr77dJERSA" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f2_yrRy3Ee6pWr77dJERSA" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_f2_yrxy3Ee6pWr77dJERSA" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f2_ysBy3Ee6pWr77dJERSA" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f2_ysRy3Ee6pWr77dJERSA" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_f2_yshy3Ee6pWr77dJERSA">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_f2_ysxy3Ee6pWr77dJERSA">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_f2_ytBy3Ee6pWr77dJERSA">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_f2_ytRy3Ee6pWr77dJERSA" name="base_Class_FMEAProfile" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f2_ythy3Ee6pWr77dJERSA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f2_ytxy3Ee6pWr77dJERSA" key="originalName" value="base_Class_FMEA Profile"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_GAr78By3Ee6pWr77dJERSA" name="FMEAProfile" nsURI="https://www.omg.org/spec/RAAML/20211101/FMEA" nsPrefix="FMEAProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAr78Ry3Ee6pWr77dJERSA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAr78hy3Ee6pWr77dJERSA" key="originalName" value="FMEA Profile"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAr78xy3Ee6pWr77dJERSA" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAr79By3Ee6pWr77dJERSA" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAr79Ry3Ee6pWr77dJERSA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GBLEIhy3Ee6pWr77dJERSA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GBLEIxy3Ee6pWr77dJERSA" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GBLEJBy3Ee6pWr77dJERSA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GBLEJRy3Ee6pWr77dJERSA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GBLEJhy3Ee6pWr77dJERSA" key="Date" value="2023-07-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GBLEJxy3Ee6pWr77dJERSA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_GAr79hy3Ee6pWr77dJERSA" name="FMEAItem">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAr79xy3Ee6pWr77dJERSA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_18_5_3_f720368_1524487928810_429098_15835"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_GAr7-By3Ee6pWr77dJERSA" name="FMEAItemIsAbstractFMEAItem">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAr7-Ry3Ee6pWr77dJERSA" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAr7-hy3Ee6pWr77dJERSA" key="body" value="-- FMEAItem stereotype can only be applied on any class, specialized from AbstractFMEAItem from FMEA Library&#xA;self.base_Class->asSet()->closure(general).name->includes('AbstractFMEAItem')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_GAr7_By3Ee6pWr77dJERSA" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAr7_Ry3Ee6pWr77dJERSA" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAr7_hy3Ee6pWr77dJERSA" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_GAr8ABy3Ee6pWr77dJERSA" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAr8ARy3Ee6pWr77dJERSA" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAr8Ahy3Ee6pWr77dJERSA" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_GAr8Axy3Ee6pWr77dJERSA">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_GAr8BBy3Ee6pWr77dJERSA">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_GAr8BRy3Ee6pWr77dJERSA">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_GAr8Bhy3Ee6pWr77dJERSA" name="base_Class_FMEAProfile" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAr8Bxy3Ee6pWr77dJERSA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAr8CBy3Ee6pWr77dJERSA" key="originalName" value="base_Class_FMEA Profile"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_plzBYKcSEe2gsN7xsTuauw" name="FMEAProfile" nsURI="https://www.omg.org/spec/RAAML/20211101/FMEA" nsPrefix="FMEAProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_plzocKcSEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_plzocacSEe2gsN7xsTuauw" key="originalName" value="FMEA Profile"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_plzocqcSEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pmDgEKcSEe2gsN7xsTuauw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pmDgEacSEe2gsN7xsTuauw" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pmDgEqcSEe2gsN7xsTuauw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pmDgE6cSEe2gsN7xsTuauw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pmDgFKcSEe2gsN7xsTuauw" key="Date" value="2023-02-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pmDgFacSEe2gsN7xsTuauw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_plzoc6cSEe2gsN7xsTuauw" name="FMEAItem">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_plzodKcSEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_18_5_3_f720368_1524487928810_429098_15835"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_plzodacSEe2gsN7xsTuauw" name="FMEAItemIsAbstractFMEAItem">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_plzod6cSEe2gsN7xsTuauw" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_plzoeKcSEe2gsN7xsTuauw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_plzoeacSEe2gsN7xsTuauw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_plzoe6cSEe2gsN7xsTuauw" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_plzofKcSEe2gsN7xsTuauw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_plzofacSEe2gsN7xsTuauw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_plzofqcSEe2gsN7xsTuauw">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_plzof6cSEe2gsN7xsTuauw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_plzogKcSEe2gsN7xsTuauw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_plzogacSEe2gsN7xsTuauw" name="base_Class_FMEAProfile" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_plzogqcSEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_plzog6cSEe2gsN7xsTuauw" key="originalName" value="base_Class_FMEA Profile"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_JiW24KcOEe2gsN7xsTuauw" name="FMEAProfile" nsURI="https://www.omg.org/spec/RAAML/20211101/FMEA" nsPrefix="FMEAProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JiW24acOEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JiW24qcOEe2gsN7xsTuauw" key="originalName" value="FMEA Profile"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JiW246cOEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JipKy6cOEe2gsN7xsTuauw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JipKzKcOEe2gsN7xsTuauw" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JipKzacOEe2gsN7xsTuauw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JipKzqcOEe2gsN7xsTuauw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JipKz6cOEe2gsN7xsTuauw" key="Date" value="2023-02-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JipK0KcOEe2gsN7xsTuauw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_JiW25KcOEe2gsN7xsTuauw" name="FMEAItem">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JiW25acOEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_18_5_3_f720368_1524487928810_429098_15835"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_JiW25qcOEe2gsN7xsTuauw" name="FMEAItemIsAbstractFMEAItem">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_JiW26KcOEe2gsN7xsTuauw" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JiW26acOEe2gsN7xsTuauw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JiW26qcOEe2gsN7xsTuauw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_JiW27KcOEe2gsN7xsTuauw" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JiW27acOEe2gsN7xsTuauw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JiW27qcOEe2gsN7xsTuauw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_JiW276cOEe2gsN7xsTuauw">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_JiW28KcOEe2gsN7xsTuauw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_JiW28acOEe2gsN7xsTuauw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_JiW28qcOEe2gsN7xsTuauw" name="base_Class_FMEAProfile" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JiW286cOEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JiW29KcOEe2gsN7xsTuauw" key="originalName" value="base_Class_FMEA Profile"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_heS6UKcIEe2gsN7xsTuauw" name="FMEAProfile" nsURI="https://www.omg.org/spec/RAAML/20211101/FMEA" nsPrefix="FMEAProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_heS6UacIEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_heS6UqcIEe2gsN7xsTuauw" key="originalName" value="FMEA Profile"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_heS6U6cIEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hepfqKcIEe2gsN7xsTuauw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hepfqacIEe2gsN7xsTuauw" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hepfqqcIEe2gsN7xsTuauw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hepfq6cIEe2gsN7xsTuauw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hepfrKcIEe2gsN7xsTuauw" key="Date" value="2023-02-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hepfracIEe2gsN7xsTuauw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_heS6VKcIEe2gsN7xsTuauw" name="FMEAItem">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_heS6VacIEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_18_5_3_f720368_1524487928810_429098_15835"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_heS6VqcIEe2gsN7xsTuauw" name="FMEAItemIsAbstractFMEAItem">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_heS6WKcIEe2gsN7xsTuauw" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_heS6WacIEe2gsN7xsTuauw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_heS6WqcIEe2gsN7xsTuauw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_heS6XKcIEe2gsN7xsTuauw" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_heS6XacIEe2gsN7xsTuauw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_heS6XqcIEe2gsN7xsTuauw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_heS6X6cIEe2gsN7xsTuauw">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_heS6YKcIEe2gsN7xsTuauw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_heS6YacIEe2gsN7xsTuauw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_heS6YqcIEe2gsN7xsTuauw" name="base_Class_FMEAProfile" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_heS6Y6cIEe2gsN7xsTuauw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_heS6ZKcIEe2gsN7xsTuauw" key="originalName" value="base_Class_FMEA Profile"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="__clIcKcHEe23pfhfsJpLCw" name="FMEAProfile" nsURI="https://www.omg.org/spec/RAAML/20211101/FMEA" nsPrefix="FMEAProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__clIcacHEe23pfhfsJpLCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__clIcqcHEe23pfhfsJpLCw" key="originalName" value="FMEA Profile"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__clIc6cHEe23pfhfsJpLCw" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__cyj0KcHEe23pfhfsJpLCw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__cyj0acHEe23pfhfsJpLCw" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__cyj0qcHEe23pfhfsJpLCw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__cyj06cHEe23pfhfsJpLCw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__cyj1KcHEe23pfhfsJpLCw" key="Date" value="2023-02-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__cyj1acHEe23pfhfsJpLCw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__clIdKcHEe23pfhfsJpLCw" name="FMEAItem">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__clIdacHEe23pfhfsJpLCw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_18_5_3_f720368_1524487928810_429098_15835"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="__clIdqcHEe23pfhfsJpLCw" name="FMEAItemIsAbstractFMEAItem">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="__clIeKcHEe23pfhfsJpLCw" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__clIeacHEe23pfhfsJpLCw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__clIeqcHEe23pfhfsJpLCw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="__clIfKcHEe23pfhfsJpLCw" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__clIfacHEe23pfhfsJpLCw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__clIfqcHEe23pfhfsJpLCw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="__clIf6cHEe23pfhfsJpLCw">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="__clIgKcHEe23pfhfsJpLCw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="__clIgacHEe23pfhfsJpLCw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__clIgqcHEe23pfhfsJpLCw" name="base_Class_FMEAProfile" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__clIg6cHEe23pfhfsJpLCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__clIhKcHEe23pfhfsJpLCw" key="originalName" value="base_Class_FMEA Profile"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_CVnu8KcEEe2l2tLIbMY-fg" alias="Class">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_8760274_1528900581825_656944_25378">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_30b0125_1604651155107_205134_595">
+    <importedPackage xmi:type="uml:Profile" href="General_Concepts_Profile.profile.uml#_18_5_3_f720368_1537716950274_148762_15249"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0primitiveTypesFMEA_Profile">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0javaPrimitiveTypesFMEA_Profile">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_18_5_3_f720368_1524487928826_63777_15836" name="" visibility="public" memberEnd="_18_5_3_f720368_1524487928826_353707_15837 _18_5_3_f720368_1524487928826_190827_15838" navigableOwnedEnd="_18_5_3_f720368_1524487928826_190827_15838">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_18_5_3_f720368_1524487928826_190827_15838" name="extension_Situation" visibility="private" type="_18_5_3_f720368_1524487928810_429098_15835" aggregation="composite" association="_18_5_3_f720368_1524487928826_63777_15836">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18_5_3_f720368_1524487928826_288186_15839" name="" visibility="public"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642421_487417_71" name="" visibility="public" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_18_5_3_f720368_1524487928810_429098_15835" name="FMEAItem" visibility="public">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_18_5_3_8760274_1552757957775_328319_11949" annotatedElement="_18_5_3_f720368_1524487928810_429098_15835">
+      <body>See AbstractFMEAItem library class for the definition of a FMEA Item concept.</body>
+    </ownedComment>
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_19_0_2_30b0125_1569268215615_796092_2474" name="FMEAItemIsAbstractFMEAItem" visibility="public" constrainedElement="_18_5_3_f720368_1524487928810_429098_15835">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_19_0_2_30b0125_1569268215616_550248_2475" name="" visibility="public">
+        <language>OCL</language>
+        <body>-- FMEAItem stereotype can only be applied on any class, specialized from AbstractFMEAItem from FMEA Library
+self.base_Class->asSet()->closure(general).name->includes('AbstractFMEAItem')</body>
+      </specification>
+    </ownedRule>
+    <generalization xmi:type="uml:Generalization" xmi:id="_JU8ZIKGAEe2bpdKb6eBW8A">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5_3_f720368_1524487928826_353707_15837" name="base_Class_FMEA Profile" visibility="private" association="_18_5_3_f720368_1524487928826_63777_15836">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_7f30258_1656334642421_470830_69" name="" visibility="public" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_7f30258_1656334642421_181789_70" name="" visibility="public" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Profile>
