@@ -1,0 +1,16 @@
+
+
+* {
+/*	fillColor:white;
+ 	elementIcon: false; */
+	isNameWrap : true;
+	textAlignment : center;
+}
+
+* > Compartment{
+/*	fillColor:white;
+ 	elementIcon: false; */
+	isNameWrap : true;
+	textAlignment : center;
+}
+

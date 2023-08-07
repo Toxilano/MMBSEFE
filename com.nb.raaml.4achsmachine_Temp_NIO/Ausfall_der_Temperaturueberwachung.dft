@@ -1,0 +1,12 @@
+toplevel "ausfall_Temperaturueberwachung";
+"ausfall_Temperaturueberwachung" or "ausfall_Temperaturerfassung" "ausfall_Beckhoff3124-2A10" "ausfall_Beckhoff6900-2A6" "ausfall_Beckhoff2904-2A11" "Ausfall_WielandSafetyRelais" "ausfall_WermaAlarm";
+"ausfall_Temperaturerfassung" or "ausfall_JumoPT100" "ausfall_JumoSafetyM";
+"ausfall_Beckhoff3124-2A10" lambda=5.284965E-7 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+"ausfall_Beckhoff6900-2A6" lambda=1.000000E-9 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+"ausfall_Beckhoff2904-2A11" lambda=1.300000E-9 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+"Ausfall_WielandSafetyRelais" lambda=3.000000E-8 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+"ausfall_WermaAlarm" lambda=1.142000E-5 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+"ausfall_JumoPT100" lambda=6.675746E-7 cov=0.000000E+0 res=0.000000E+0 dorm=5.000000E-1;
+"ausfall_JumoSafetyM" lambda=3.397478E-7 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+
+

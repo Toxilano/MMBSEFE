@@ -1,0 +1,105 @@
+
+[appliedStereotypes~="TestMachine"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="TestMachine"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="TestMachine"] {
+	elementIcon: false;
+	fillColor:white;
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.4achsmachine/svg/machine.svg";
+	followSVGSymbol:true;
+    shapeVisibility: False;
+    display: none;
+    isNameWrap : true
+}
+
+[appliedStereotypes~="ExposedActor"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="ExposedActor"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="ExposedActor"] {
+	elementIcon: false;
+	fillColor:white;
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.4achsmachine/svg/actor.svg";
+	followSVGSymbol:true;
+    shapeVisibility: False;
+    display: none;
+    isNameWrap : true
+}
+
+[appliedStereotypes~="DUT"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="DUT"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="DUT"] {
+	elementIcon: false;
+	fillColor:white;
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.4achsmachine/svg/battery2.svg";
+	followSVGSymbol:true;
+    shapeVisibility: False;
+    display: none;
+    isNameWrap : true
+}
+
+[appliedStereotypes~="TestmachineEnvironment"] > Compartment{
+	visible:false;
+	textAlignment: center;
+}
+
+[appliedStereotypes~="TestmachineEnvironment"] > Compartment[type="compartment_shape_display"] {
+	visible:true;
+	showTitle:false;
+}
+
+[appliedStereotypes~="TestmachineEnvironment"] {
+	elementIcon: false;
+	fillColor:white;
+    displayIcon: false;
+	displayHeader:false;
+	displayBorder: true;
+	svgFile: "plattform:/resource/com.nb.raaml.4achsmachine/svg/halle.svg";
+	followSVGSymbol:true;
+    shapeVisibility: False;
+    display: none;
+    isNameWrap : true
+}
+
+
+* {
+/*	fillColor:white;
+ 	elementIcon: false; */
+	isNameWrap : true;
+}
+
+* > Compartment{
+/*	fillColor:white;
+ 	elementIcon: false; */
+	isNameWrap : true;
+}

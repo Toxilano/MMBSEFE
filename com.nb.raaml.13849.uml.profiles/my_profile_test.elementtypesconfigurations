@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:stereotypematcher="http://www.eclipse.org/papyrus/uml/types/stereotypematcher/1.1" xmi:id="org.eclipse.my_profile_test.elementTypes" identifier="org.eclipse.my_profile_test.elementTypes" name="13849_Insert" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML">
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.ActuatorEvent" identifier="org.eclipse.my_profile_test.ActuatorEvent" name="ActuatorEvent" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCePlPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCePkvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_utDd0O2AEey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCePk_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCePlPCjEey2EMwyCV5i5g" description="Apply Stereotype ActuatorEvent" identifier="org.eclipse.my_profile_test.actuatorEvent" target="org.eclipse.my_profile_test.ActuatorEvent" matchedType="org.eclipse.my_profile_test.ActuatorEvent">
+      <stereotypesQualifiedNames>13849_Insert::ActuatorEvent</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.BaseBlock" identifier="org.eclipse.my_profile_test.BaseBlock" name="BaseBlock" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCePmPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCePlvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#__6wx4O1-Eey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCePl_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCePmPCjEey2EMwyCV5i5g" description="Apply Stereotype BaseBlock" identifier="org.eclipse.my_profile_test.baseBlock" target="org.eclipse.my_profile_test.BaseBlock" matchedType="org.eclipse.my_profile_test.BaseBlock">
+      <stereotypesQualifiedNames>13849_Insert::BaseBlock</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.Channel" identifier="org.eclipse.my_profile_test.Channel" name="Channel" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCePnPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCePmvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_m5y4sO2HEey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCePm_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCePnPCjEey2EMwyCV5i5g" description="Apply Stereotype Channel" identifier="org.eclipse.my_profile_test.channel" target="org.eclipse.my_profile_test.Channel" matchedType="org.eclipse.my_profile_test.Channel">
+      <stereotypesQualifiedNames>13849_Insert::Channel</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.Connector" identifier="org.eclipse.my_profile_test.Connector" name="Connector" hint="UML::Dependency" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCePoPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCePnvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_qPZ0gO2FEey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCePn_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Dependency.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCePoPCjEey2EMwyCV5i5g" description="Apply Stereotype Connector" identifier="org.eclipse.my_profile_test.connector" target="org.eclipse.my_profile_test.Connector" matchedType="org.eclipse.my_profile_test.Connector">
+      <stereotypesQualifiedNames>13849_Insert::Connector</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.Input" identifier="org.eclipse.my_profile_test.Input" name="Input" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCePpPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCePovCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_lZPlkO1_Eey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCePo_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCePpPCjEey2EMwyCV5i5g" description="Apply Stereotype Input" identifier="org.eclipse.my_profile_test.input" target="org.eclipse.my_profile_test.Input" matchedType="org.eclipse.my_profile_test.Input">
+      <stereotypesQualifiedNames>13849_Insert::Input</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.Logic" identifier="org.eclipse.my_profile_test.Logic" name="Logic" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCePqPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCePpvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_mPYjYO1_Eey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCePp_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCePqPCjEey2EMwyCV5i5g" description="Apply Stereotype Logic" identifier="org.eclipse.my_profile_test.logic" target="org.eclipse.my_profile_test.Logic" matchedType="org.eclipse.my_profile_test.Logic">
+      <stereotypesQualifiedNames>13849_Insert::Logic</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.MonitorTestConnector" identifier="org.eclipse.my_profile_test.MonitorTestConnector" name="MonitorTestConnector" hint="UML::Dependency" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCePrPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCePqvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_r1Zh8O2FEey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCePq_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Dependency.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCePrPCjEey2EMwyCV5i5g" description="Apply Stereotype MonitorTestConnector" identifier="org.eclipse.my_profile_test.monitorTestConnector" target="org.eclipse.my_profile_test.MonitorTestConnector" matchedType="org.eclipse.my_profile_test.MonitorTestConnector">
+      <stereotypesQualifiedNames>13849_Insert::MonitorTestConnector</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.Output" identifier="org.eclipse.my_profile_test.Output" name="Output" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCePsPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCePrvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_nf6-MO1_Eey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCePr_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCePsPCjEey2EMwyCV5i5g" description="Apply Stereotype Output" identifier="org.eclipse.my_profile_test.output" target="org.eclipse.my_profile_test.Output" matchedType="org.eclipse.my_profile_test.Output">
+      <stereotypesQualifiedNames>13849_Insert::Output</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.OutputTest" identifier="org.eclipse.my_profile_test.OutputTest" name="OutputTest" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCePtPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCePsvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_rdHzkO1_Eey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCePs_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCePtPCjEey2EMwyCV5i5g" description="Apply Stereotype OutputTest" identifier="org.eclipse.my_profile_test.outputTest" target="org.eclipse.my_profile_test.OutputTest" matchedType="org.eclipse.my_profile_test.OutputTest">
+      <stereotypesQualifiedNames>13849_Insert::OutputTest</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.SafetyFunction" identifier="org.eclipse.my_profile_test.SafetyFunction" name="SafetyFunction" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCe2oPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCePtvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_qF-zwO16Eey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCePt_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCe2oPCjEey2EMwyCV5i5g" description="Apply Stereotype SafetyFunction" identifier="org.eclipse.my_profile_test.safetyFunction" target="org.eclipse.my_profile_test.SafetyFunction" matchedType="org.eclipse.my_profile_test.SafetyFunction">
+      <stereotypesQualifiedNames>13849_Insert::SafetyFunction</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.Subsystem" identifier="org.eclipse.my_profile_test.Subsystem" name="Subsystem" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCe2pPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCe2ovCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_1CpVoO16Eey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCe2o_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCe2pPCjEey2EMwyCV5i5g" description="Apply Stereotype Subsystem" identifier="org.eclipse.my_profile_test.subsystem" target="org.eclipse.my_profile_test.Subsystem" matchedType="org.eclipse.my_profile_test.Subsystem">
+      <stereotypesQualifiedNames>13849_Insert::Subsystem</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.Testequipment" identifier="org.eclipse.my_profile_test.Testequipment" name="Testequipment" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCe2qPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCe2pvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_pkHDgO1_Eey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCe2p_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCe2qPCjEey2EMwyCV5i5g" description="Apply Stereotype Testequipment" identifier="org.eclipse.my_profile_test.testequipment" target="org.eclipse.my_profile_test.Testequipment" matchedType="org.eclipse.my_profile_test.Testequipment">
+      <stereotypesQualifiedNames>13849_Insert::Testequipment</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.my_profile_test.TrigerEvent" identifier="org.eclipse.my_profile_test.TrigerEvent" name="TrigerEvent" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType" matcherConfiguration="_kCe2rPCjEey2EMwyCV5i5g">
+    <annotations xmi:type="elementtypesconfigurations:Annotation" xmi:id="_kCe2qvCjEey2EMwyCV5i5g" source="org.eclipse.papyrus.uml.profile.types.generator.source" value="platform:/resource/com.nb.raaml.13849.uml.profiles/13849_Insert.profile.uml#_tZT-AO2AEey54-B01jrcCg"/>
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_kCe2q_CjEey2EMwyCV5i5g" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <ownedConfigurations xmi:type="stereotypematcher:StereotypeMatcherAdviceConfiguration" xmi:id="_kCe2rPCjEey2EMwyCV5i5g" description="Apply Stereotype TrigerEvent" identifier="org.eclipse.my_profile_test.trigerEvent" target="org.eclipse.my_profile_test.TrigerEvent" matchedType="org.eclipse.my_profile_test.TrigerEvent">
+      <stereotypesQualifiedNames>13849_Insert::TrigerEvent</stereotypesQualifiedNames>
+    </ownedConfigurations>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

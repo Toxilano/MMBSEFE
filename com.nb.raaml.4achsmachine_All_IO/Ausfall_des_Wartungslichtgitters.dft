@@ -1,0 +1,11 @@
+toplevel "ausfall_Wartungslichtgitter";
+"ausfall_Wartungslichtgitter" or "ausfall_Beckhoff1904-2A8" "ausfall_Beckhoff6900-2A6" "ausfall_Beckhoff2904-2A11" "Ausfall_WielandSafetyRelais" "Ausfall_LightgridSensors";
+"Ausfall_LightgridSensors" pand "ausfall_LightGridB1" "ausfall_LightGridB2";
+"ausfall_Beckhoff1904-2A8" lambda=1.100000E-9 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+"ausfall_Beckhoff6900-2A6" lambda=1.000000E-9 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+"ausfall_Beckhoff2904-2A11" lambda=1.300000E-9 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+"Ausfall_WielandSafetyRelais" lambda=3.000000E-8 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+"ausfall_LightGridB1" lambda=2.600000E-7 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+"ausfall_LightGridB2" lambda=2.600000E-7 cov=0.000000E+0 res=0.000000E+0 dorm=0.000000E+0;
+
+

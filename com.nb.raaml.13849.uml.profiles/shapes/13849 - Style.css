@@ -1,0 +1,356 @@
+
+
+[appliedStereotypes~="Function"]{
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/SafetyFunction.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+
+[appliedStereotypes~="SafetyFunction"]{
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/SafetyFunction.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="Subsystem"] {
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/Subsystem.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="Input-SB"] {
+	elementIcon:false; 
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/Input-SB.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="Logic-SB"] {
+	elementIcon:false; /* Do not show element icon */
+	fillColor:yellow; /* Set background color of element to yellow */
+    displayIcon:false; /* Do not display icon */
+	displayHeader:false; /* Do not display header */
+	displayBorder:true;  /* Show border around element */
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/Logic-SB.svg"; /* SVG file for the element */
+	followSVGSymbol:true; /* show SVG symbol for shape */
+    shapeVisibility:true; /* set shape to visible */
+    shapeDirection:2; /* show shape on top right */
+    isNameWrap:true /* Enable text wrap for name */
+}
+
+[appliedStereotypes~="Output-SB"] {
+	elementIcon:false; /* Kein Elementsymbol anzeigen */
+	fillColor:yellow; /* Hintergrundfarbe des Elements auf Gelb setzen */
+    displayIcon:false; /* Kein Icon anzeigen */
+	displayHeader:false; /* Keine Kopfzeile anzeigen */
+	displayBorder:true; /* Rahmen um das Element anzeigen */
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/Output-SB.svg"; /* SVG-Datei für das Element */
+	followSVGSymbol:true; /* SVG-Symbol für Form anzeigen */
+    shapeVisibility:true; /* Form auf sichtbar setzen */
+    shapeDirection:2; /* Form oben rechts anzeigen */
+    isNameWrap:true /* Textumbruch für den Namen aktivieren */
+}
+
+[appliedStereotypes~="Input"] > Compartment{
+	visible:false;
+	textAlignment:center;
+}
+
+[appliedStereotypes~="Input"] > Compartment[type="compartment_shape_display"] {
+	visible:false;
+	showTitle:false;
+}
+
+[appliedStereotypes~="Output"] > Compartment{
+	visible:false;
+	textAlignment:center;
+}
+
+[appliedStereotypes~="Output"] > Compartment[type="compartment_shape_display"] {
+	visible:false;
+	showTitle:false;
+}
+
+[appliedStereotypes~="Logic"] > Compartment{
+	visible:false; /* Set the visibility of the compartment to false */
+	textAlignment:center; /* Center align the text within the compartment */
+}
+
+[appliedStereotypes~="Logic"] > Compartment[type="compartment_shape_display"] {
+	visible:false; /* Set the visibility of the shape from compartments to false */
+	showTitle:false; /* Do not display the title of the compartment */
+}
+
+[appliedStereotypes~="Testequipment"] > Compartment{
+	visible:false;
+	textAlignment:center;
+}
+
+[appliedStereotypes~="Testequipment"] > Compartment[type="compartment_shape_display"] {
+	visible:false;
+	showTitle:false;
+}
+
+[appliedStereotypes~="OutputTest"] {
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/AusgangTE.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="Input-B"] {
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/Input-B.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="Output-B"] {
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/Output-B.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="Logic-B"] {
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/Logic-B.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="Testequipment-B"] {
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/Testeinrichtung-B.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="OutputTest-B"] {
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/OutputTest-B.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="13849Block"] > Compartment{
+	visible:false;
+	textAlignment:center;
+}
+
+[appliedStereotypes~="13849Block"] > Compartment[type="compartment_shape_display"] {
+	visible:false;
+	showTitle:false;
+}
+
+[appliedStereotypes~="13849Block"] {
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/Block.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="BaseBlock"] > Compartment{
+	visible:false;
+	textAlignment:center;
+}
+
+[appliedStereotypes~="BaseBlock"] > Compartment[type="compartment_shape_display"] {
+	visible:false;
+	showTitle:false;
+}
+
+[appliedStereotypes~="BaseBlock"] {
+	elementIcon:false;
+	fillColor:yellow;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+	svgFile:"plattform:/resource/com.nb.raaml.13849.uml.profiles/shapes/Block.svg";
+	followSVGSymbol:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true
+}
+
+[appliedStereotypes~="TriggerEvent"] > Compartment{
+	visible:false;
+	textAlignment:center;
+}
+
+[appliedStereotypes~="TriggerEvent"] > Compartment[type="compartment_shape_display"] {
+	visible:false;
+	showTitle:false;
+}
+
+[appliedStereotypes~="TriggerEvent"] {
+	elementIcon:false;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true;
+}
+
+[appliedStereotypes~="Trigger"] > Compartment{
+	visible:false;
+	textAlignment:center;
+}
+
+[appliedStereotypes~="Trigger"] > Compartment[type="compartment_shape_display"] {
+	visible:false;
+	showTitle:false;
+}
+
+[appliedStereotypes~="Trigger"] {
+	elementIcon:false;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true;
+}
+
+[appliedStereotypes~="ActuatorEvent"] > Compartment{
+	visible:false;
+	textAlignment:center;
+}
+
+[appliedStereotypes~="ActuatorEvent"] > Compartment[type="compartment_shape_display"] {
+	visible:false;
+	showTitle:false;
+}
+
+[appliedStereotypes~="ActuatorEvent"] {
+	elementIcon:false;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true;
+}
+
+[appliedStereotypes~="Actuator"] > Compartment{
+	visible:false;
+	textAlignment:center;
+}
+
+[appliedStereotypes~="Actuator"] > Compartment[type="compartment_shape_display"] {
+	visible:false;
+	showTitle:false;
+}
+
+[appliedStereotypes~="Actuator"] {
+	elementIcon:false;
+    displayIcon:false;
+	displayHeader:false;
+	displayBorder:true;
+    shapeVisibility:true;
+    display:none;
+    shapeDirection:2;
+    isNameWrap:true;
+}
+
+Class[result=Passed] {
+	fillColor:#A6C198; /* Sets every class with result=Passed to green */
+}
+
+Property[result=Passed] {
+	fillColor:#A6C198; /* Sets every property with result=Passed to green */
+}
+
+Class[result=Failed] {
+	fillColor:#E3A49C /* Sets every class with result=Passed to red */
+}
+
+Property[result=Failed] {
+	fillColor:#E3A49C /* Sets every property with result=Passed to red */
+}

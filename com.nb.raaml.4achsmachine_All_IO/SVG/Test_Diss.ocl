@@ -1,0 +1,2 @@
+--SafetyFunction should have a performanceLevelRequired, a triggerin-gEvent, an actuatorEvent and a subsystem
+self.performanceLevelRequired<>null and self.actuatorEvent<>null and self.triggeringEvent<>null and self.subsystem->notEmpty()
